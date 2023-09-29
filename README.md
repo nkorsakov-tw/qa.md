@@ -1,1 +1,5 @@
-# qa.md
+# QA unTill Air
+
+Purpose:
+
+Extend the coverage of manual tests of unTill Air (Back Office & POS)
