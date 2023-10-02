@@ -2,7 +2,7 @@
 
 ----------------
 
-## Rules for Testers
+## Principles
 
 1. **Always Create a Task**:  
    If you encounter a potential error, don't hesitate to create a task. If in doubt, consult the development team for clarification, but generally, a task should be created for every issue you encounter.
@@ -96,13 +96,13 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
   Note: If you have set the Work Start Time in Back Office settings, the X Report will be scheduled to start from this time. Confirm this.
 
 - Open the Z-X Report.
-    + Ensure that Turnover matches Payments.
-    + Open the VAT calculator and validate the VAT values in this Z-X Report.
-    + Confirm the numbers related to turnover, both by waiter and by payment method.
-    + Verify that VAT for 'Modifiers' is calculated based on the groups to which the modifier articles belong, not the groups of the articles that include these modifiers.
-    + Ensure that articles with secondary VAT are categorized correctly, with the appropriate VAT level.
-    + Confirm that special articles are placed in the correct group with the corresponding VAT level. Note: Special articles should be assigned to the "native department" that was first associated with the article.
-    + Review other values, such as VAT deductions, for accuracy.
+- Ensure that Turnover matches Payments.
+- Open the VAT calculator (e.g. [this one](https://badrequest.ru/vat_calculator/)) and validate the VAT values in this Z-X Report.
+- Confirm the numbers related to turnover, both by waiter and by payment method.
+- Verify that VAT for 'Modifiers' is calculated based on the groups to which the modifier articles belong, not the groups of the articles that include these modifiers.
+- Ensure that articles with secondary VAT are categorized correctly, with the appropriate VAT level.
+- Confirm that special articles are placed in the correct group with the corresponding VAT level. Note: Special articles should be assigned to the "native department" that was first associated with the article.
+- Review other values, such as VAT deductions, for accuracy.
 
 
 #### Location Report
@@ -129,7 +129,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Open the Sales per waiter report.
 - Check that the values are sorted by the waiters and payment types.
 - Switch between the dates and observe how the data changes.
-- Create orders and observe how the data changes.
+- Create orders and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
@@ -139,6 +139,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Check all properties. If you have no properties in the specific field it's an error.
 - Check the Total amounts figures.
 - Check the reasons.
+- Create new orders with voids and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
@@ -147,6 +148,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Open the Sold articles Report.
 - Check the values.
 - Switch between different timeframes and observe how the data changes.
+- Create new orders and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
@@ -155,6 +157,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Open the Sales per hour Report.
 - Check the values.
 - Switch between different timeframes and observe how the data changes.
+- Create new orders and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
@@ -162,6 +165,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 - Check the values.
 - Switch between different timeframes and observe how the data changes.
+- Create new orders and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
@@ -170,32 +174,53 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Open the Payments Report.
 - Check the values.
 - Switch between different timeframes and observe how the data changes.
+- Create new orders and trace how the data changes.
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
+#### Financial
 
- 
+- Open the Financil Report
+- Check the values.
+- Switch between different timeframes and observe how the data changes.
+- Create new orders and trace how the data changes. 
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Discounts
+
+- Open the Discounts Report.
+- Check the values. 
+- Check the empty fields if you see them, it can be an error.
+- Switch between timeframes and observe the changes.
+- Create new orders and trace how the data changes. 
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+### Payment methods
+
 
 ### Equipment
 
-- **Add a Printer**
-    + Set up different purposes for the printer.
-    + Configure various types of order tickets.
-    + Provide the printer's technical specifications.
-    + Save these changes.
-    + Modify the settings as needed.
-    + Test by ticking the 'Null Printer' checkbox. Will it work?
+#### Add a Printer
+- Set up different purposes for the printer.
+- Configure various types of order tickets.
+- Provide the printer's technical specifications.
+- Save these changes.
+- Modify the settings as needed.
+- Test by ticking the 'Null Printer' checkbox. Will it work?
 
-- **Add a Terminal**
-    + Provide a name for the terminal.
-    + Supply a POI (Point of Interaction) ID.
+#### Add a Terminal
+- Provide a name for the terminal.
+- Supply a POIID.
 
-- **Add a Tablet**
-    + Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
-        - **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
-        - **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
-    + Validate the data and ensure the correctness of the bill printers.
-    + Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
+#### Add a Tablet
+
+- Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
+   + **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
+   + **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
+- Validate the data and ensure the correctness of the bill printers.
+- Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
 
 
 
