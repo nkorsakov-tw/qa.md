@@ -31,7 +31,7 @@
 9. **Stay in Touch with the Development Team**:  
    Keep track of the tasks you've set. Stay updated on their status, respond promptly to queries or requests from the development team, and don't forget to close tasks that have been resolved.
 
-10. **Add tasks in the Feedback sections:** If you have any kind of suggestions (you should have them), create the tasks in the Feedback gerously.
+10. **Add tasks in the Feedback sections:** If you have any kind of suggestions (you should have them), create the tasks in the Feedback generously.
 
 
 ## Scope
@@ -67,6 +67,25 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Check that courses are appeared/disappeared form the sections withing the Back Office
 - Open POS 
 - Check that courses buttons are appeared/disappeared
+
+### POS Users
+
+- Click 'Add new user'
+- Miss some 'General' information fields and try to proceed. The system should not allow to do so
+- Tick the checkbox 'Allow void' and 'Allow transfer'.
+- Test that 'Allow void' and 'Allow transfer' work correctly in the POS.
+- Set the user's language.
+- Verify the language in the POS.
+- Enter the additional information.
+- Click 'Save'
+- Edit an existing POS User.
+- Verify that all works as expected in accordance with the previous steps.
+
+### Reports
+
+- Create orders with discounts, voids, by different payment methods.
+- Make a Z Report and an X Report.
+- Switch from one report to another in the Back Office and verify the values, numbers, and items included in these reports.
 
 
 ## Scenarious
