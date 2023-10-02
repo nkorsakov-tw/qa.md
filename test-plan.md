@@ -1,4 +1,4 @@
-# Test Plan unTill Air
+# Test Plan (unTill Air)
 
 ----------------
 
@@ -40,17 +40,15 @@ You need to test services of unTill Air (Back Office and POS) on two environment
 
 ## Objective
 
-We must highlight the possible errors, bugs etc. before going live. Our aim is to prevent collapses. We work to gurantee the high quality of the Products which we  provide to our customers.
+We must highlight the possible errors, bugs etc. before going live. Our aim is to prevent collapses. We work to gurantee the high quality of the Products which we provide to our customers.
 
-## Resources
-
-## Test cases
+## Test cases (Back Office)
 
 ### POS Action sets
 
-- Navigate to POS Actions sets
+- Navigate to POS Actions sets.
 - Modify the actual Action sets (add, remove, replace etc.)
-- Check the sequence and correctness of Action sets in the POS
+- Check the sequence and correctness of Action sets in the POS.
 
 ### Restaurant settings
 
@@ -86,6 +84,60 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Create orders with discounts, voids, by different payment methods.
 - Make a Z Report and an X Report.
 - Switch from one report to another in the Back Office and verify the values, numbers, and items included in these reports.
+
+#### Z-X Report
+
+- Create orders featuring 'Modifiers,' bill splitting, tips, discounts, menus, combi deals, and special articles.
+- Create orders in different spaces, utilising various VAT levels for the same article via the 'Secondary VAT' feature.
+- Generate a Z-X Report for the period covering these orders.
+
+  Note: The Z Report should have a preconfigured start date that cannot be modified, as it must cover all sales from the time of the last Z Report. Verify this.
+
+  Note: If you have set the Work Start Time in Back Office settings, the X Report will be scheduled to start from this time. Confirm this.
+
+- Open the Z-X Report.
+    + Ensure that Turnover matches Payments.
+    + Open the VAT calculator and validate the VAT values in this Z-X Report.
+    + Confirm the numbers related to turnover, both by waiter and by payment method.
+    + Verify that VAT for 'Modifiers' is calculated based on the groups to which the modifier articles belong, not the groups of the articles that include these modifiers.
+    + Ensure that articles with secondary VAT are categorized correctly, with the appropriate VAT level.
+    + Confirm that special articles are placed in the correct group with the corresponding VAT level. Note: Special articles should be assigned to the "native department" that was first associated with the article.
+    + Review other values, such as VAT deductions, for accuracy.
+
+
+#### Location Report
+
+- Open the Location Report.
+- Ensure that Turnover matches Payments.
+- Open the VAT calculator and validate the VAT values in this Location Report.
+- Confirm the numbers related to turnover, both by waiter and by payment method.
+- Review other values, such as VAT deductions, for accuracy.
+### Equipment
+
+- **Add a Printer**
+    + Set up different purposes for the printer.
+    + Configure various types of order tickets.
+    + Provide the printer's technical specifications.
+    + Save these changes.
+    + Modify the settings as needed.
+    + Test by ticking the 'Null Printer' checkbox. Will it work?
+
+- **Add a Terminal**
+    + Provide a name for the terminal.
+    + Supply a POI (Point of Interaction) ID.
+
+- **Add a Tablet**
+    + Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
+        - **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
+        - **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
+    + Validate the data and ensure the correctness of the bill printers.
+    + Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
+
+
+
+
+
+  
 
 
 ## Scenarious
