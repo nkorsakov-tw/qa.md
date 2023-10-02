@@ -112,6 +112,70 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Open the VAT calculator and validate the VAT values in this Location Report.
 - Confirm the numbers related to turnover, both by waiter and by payment method.
 - Review other values, such as VAT deductions, for accuracy.
+
+#### Waiters
+
+- Open the Waiter Report.
+- Select a specific waiter and ensure that the data displayed relates specifically to the selected waiter.
+- Pay attention to the displayed name of the waiter. The system should use the 'Display Name' in this instance.
+- Review the values in this Report.
+- Create orders using the waiter whose report you are viewing, and then recheck the values in the Report.
+- Export this report and open it in different formats, such as PDF.
+- Verify that the exported report matches the report displayed in the Back Office.
+
+
+#### Sales per waiter
+
+- Open the Sales per waiter report.
+- Check that the values are sorted by the waiters and payment types.
+- Switch between the dates and observe how the data changes.
+- Create orders and observe how the data changes.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Voids
+
+- Open the Voids Report.
+- Check all properties. If you have no properties in the specific field it's an error.
+- Check the Total amounts figures.
+- Check the reasons.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Sold articles
+
+- Open the Sold articles Report.
+- Check the values.
+- Switch between different timeframes and observe how the data changes.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Sales per hour
+
+- Open the Sales per hour Report.
+- Check the values.
+- Switch between different timeframes and observe how the data changes.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Sales per category
+
+- Check the values.
+- Switch between different timeframes and observe how the data changes.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+#### Payments
+
+- Open the Payments Report.
+- Check the values.
+- Switch between different timeframes and observe how the data changes.
+- Export this report and open this in different formats such as PDF.
+- Verify that the exported report matches with the report displayed in the Back Office.
+
+
+ 
+
 ### Equipment
 
 - **Add a Printer**
