@@ -54,32 +54,32 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 ### Restaurant settings
 
-- Navigate to Restaurant settings
-- Set the start time
-- Open POS
-- Make an X Report
-- The time of X Report must be as it was set in the BO
-- Set the log-off
-- Open POS
-- The log-off must work
+- Navigate to Restaurant Settings.
+- Set the start time.
+- Open POS.
+- Generate an X Report.
+- Verify that the time on the X Report matches the time set in the Back Office.
+- Configure the log-off settings.
+- Open POS.
+- Verify that the log-off feature works as expected.
 - (???)
-- Turn on/of availability of courses
-- Check that courses are appeared/disappeared form the sections withing the Back Office
-- Open POS 
-- Check that courses buttons are appeared/disappeared
+- Turn on/off the availability of courses.
+- Verify that courses appear/disappear from the sections within the Back Office.
+- Open POS.
+- Check that course buttons appear/disappear as expected.
 
 ### POS Users
 
-- Click 'Add new user'
-- Miss some 'General' information fields and try to proceed. The system should not allow to do so
+- Click 'Add new user'.
+- Leave some 'General' information fields blank and try to proceed. The system should prevent you from doing so.
 - Tick the checkbox 'Allow void' and 'Allow transfer'.
-- Test that 'Allow void' and 'Allow transfer' work correctly in the POS.
+- Verify that the 'Allow void' and 'Allow transfer' settings are functional within the POS.
 - Set the user's language.
 - Verify the language in the POS.
 - Enter the additional information.
-- Click 'Save'
+- Click 'Save'.
 - Edit an existing POS User.
-- Verify that all works as expected in accordance with the previous steps.
+- Verify that everything works as expected, consistent with the previous steps.
 
 ### Reports
 
