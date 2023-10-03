@@ -171,6 +171,24 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 ### Articles
 
 - Click 'Add new article'.
+- Try to assign various numbers for new article. Numbers occupied by other articles shouldn't be available.
+- Set a negative price. System should prevent this kind of action.
+- Assign to preparation printer. Verify that all preparation printers are available.
+- Pay attention to assigned spaces. When you create an article, it should be automatically assigned to all current spaces in the location. Check it.
+- Verify that all courses are available in the scrollbar.
+- Pick colour. Then check that exactly this colour is presented in the POS.
+- Add article barcodes. Check its availability.
+- Add various modifiers (Mandatory and Optional).
+- Open POS and check that the modifiers are applicable to this article.
+- Set POS Display sequence and then check it in the POS application.
+- Check the overall values on the page of articles such as quantity of spaces or assigned department.
+- Switch to each department, check it and set POS Display sequence, then check it in the POS.
+- Try to delete an article.
+- Try to modify an article.
+- Try to duplicate an article.
+- Try to search a specific article.
+- If you have some articles with special price, this price for a specific space should be displayed. Verify it.
+- Click to test sorting within the articles page.
 
 ### POS Action sets
 
