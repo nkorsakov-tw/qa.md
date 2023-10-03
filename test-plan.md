@@ -144,7 +144,33 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 - Click 'Add new period'.
 - Create periods of various types (Weekly values, One-time use values, Annual values, Daily values).
-- Create several periods and then verify that they are applicable for discounts.
+- Create multiple periods and then verify that they are applicable for discounts.
+- Try to modify an existing period.
+- Try to delete an existing period.
+- Especially, pay attention to dates, here the erorrs can be.
+- Open POS, verify that these periods are available accordingly.
+
+### Reasons
+
+- Click add new reason.
+- Choose different reason types and verify how it works in the POS.
+- Try to delete an existing reason.
+- Try to modify an existing reason.
+- Try to search specific reasons.
+
+### Tickets
+
+- Click 'Add new ticket'.
+- Choose ticket layout.
+- Modify the width.
+- Add image, verify that the image is displayed on the ticket template.
+- Enter bottom text, verify that the text currently is presented.
+- Make an order, print the ticket (if you can) and compare this printed ticket with template.
+- Change some settings in the ticket templates and trace the results.
+
+### Articles
+
+- Click 'Add new article'.
 
 ### POS Action sets
 
