@@ -44,6 +44,35 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 ## Test cases (Back Office)
 
+### Home page
+
+- Create orders with discounts and voids.
+- Open the Home page.
+- Verify that all tiles have some numbers.
+- Switch between different timeframes and observe how the data changes.
+- Check the are the values realistic including the comparisom between various periods.
+
+### Spaces
+
+- Click add new space.
+- Verify that all features (Use special price & Use secondary VAT) are available.
+- Verify that you cannot enter in the 'Start from' field already existing number of the table. The system must prevent this kind of action.
+- Tick the checkbox 'Use special price', and the capability to set the price for the newly created space must appear in articles section. Check it.
+- Click 'Edit space'.
+- Verify that all features (Use special price & Use secondary VAT) are available.
+- Verify that you are able to rename this space.
+- Click 'Modify table plan'.
+- Try to change the disposition of the tables.
+- Try to delete tables.
+- Add new tables.
+- Add visual elements.
+- Change background.
+- Try to zoom the space.
+- Activate the grid and move the table using this grid.
+- Click on the table, verify that you are able to change the settings (Table number, Seats count, Shape, Height, Width, Rotation angle, 'Don't show seats').
+- Change the size of the table.  
+- Try to duplicate the tables.
+
 ### POS Action sets
 
 - Navigate to POS Actions sets.
@@ -81,12 +110,11 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 ### Reports
 
+#### Z-X Report
+
 - Create orders with discounts, voids, by different payment methods.
 - Make a Z Report and an X Report.
 - Switch from one report to another in the Back Office and verify the values, numbers, and items included in these reports.
-
-#### Z-X Report
-
 - Create orders featuring 'Modifiers,' bill splitting, tips, discounts, menus, combi deals, and special articles.
 - Create orders in different spaces, utilising various VAT levels for the same article via the 'Secondary VAT' feature.
 - Generate a Z-X Report for the period covering these orders.
