@@ -72,12 +72,98 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Click on the table, verify that you are able to change the settings (Table number, Seats count, Shape, Height, Width, Rotation angle, 'Don't show seats').
 - Change the size of the table.  
 - Try to duplicate the tables.
+- Click on the 'Undo' button.
+- Verify that you are able to spin the table.
+- Verify the restore button.
+- Ensure that all other buttons here work.
+- Click 'Cancel' to test that you can refuse changes.
+- Make changes again and click 'Save' to ensure that modifications will be preserved.
+- Switch between different spaces.
+- If you have unsaved changes you should be prompted "Do you really want..?". Check that the notification appears.
+- Try to delete the existing space.
+- Open POS, verify that newly created space is available and compare it with the Table plan that you've modified in the Back Office. 
+
+### Payment methods
+
+- Click 'Add new payment method'.
+- Check that not occupied by other payment methods numbers are available.
+- Choose different payment kinds and check that all provided scrollbars are appropriate.
+- Try to modify an existing payment method.
+- Try to delete an existing payment method.
+- Try to duplicate an existing payment method.
+- Try to search the specific payment method by using the line 'What are you looking for?'.
+
+### VAT levels
+
+- Verify the presence of the default VAT levels.
+- Click 'Add new VAT'.
+- Check that not occupied by other VAT levels letters are available.
+- Try to set the VAT value more than 100%. The system must prevent this action.
+- Try to modify an existing VAT level.
+- Try to delete VAT level.
+- Try to duplicate VAT level.
+
+### Equipment
+
+#### Add a Printer
+- Set up different purposes for the printer.
+- Configure various types of order tickets.
+- Provide the printer's technical specifications.
+- Save these changes.
+- Modify the settings as needed.
+- Test by ticking the 'Null Printer' checkbox. Will it work?
+
+#### Add a Terminal
+- Provide a name for the terminal.
+- Add a POIID.
+
+#### Add a Tablet
+
+- Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
+   + **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
+   + **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
+- Validate the data and ensure the correctness of the bill printers.
+- Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
+
+### Article messages
+
+- Click 'Add new message'.
+- Try to leave the text field blank. The system must prevent this action.
+- Try to modify an existing article message.
+- Try to delete an existing article message.
+- Try to duplicate an existing article message.
+- Open POS, verify that newly created article message is appeared.
+- Use the appeared article message in the POS. Any problems?
+
+### Discounts
+
+- Click 'Add new discount'.
+- Change value types and ensure that it correctly influences on the discount value.
+- Select a discount type and then verify that in the POS this discount can be correctly applied.
+- Choose the excluded period and then verify that the discount is available exactly in this timeframe.
+- Apply this discount to specific departments, courses, or groups and then verify that this discount is available exactly in the case of the corresponding articles.  
+- Try different options with reasons: 
+    + Try a 'Fixed text' type, enter it, and then verify that the discount will be applied with this reason.
+    + Try the 'Ask reason' type, choose one of the created reasons and then verify that the discount will be applied with this reason.
+- Try to delete an existing discount.
+    + Try to click undo to enhance that reverse function is also available.
+- Try to modify an existing discount.
+- Try to duplicate an existing discount.
+- Check the values.
+- Try to search a specific discount on this page.
+- Open POS, verify that the discount is available and all conditions of the discount are considered.
+
+### Periods
+
+- Click 'Add new period'.
+- Create periods of various types (Weekly values, One-time use values, Annual values, Daily values)
 
 ### POS Action sets
 
 - Navigate to POS Actions sets.
 - Modify the actual Action sets (add, remove, replace etc.)
 - Check the sequence and correctness of Action sets in the POS.
+
 
 ### Restaurant settings
 
@@ -107,6 +193,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Click 'Save'.
 - Edit an existing POS User.
 - Verify that everything works as expected, consistent with the previous steps.
+- Open POS, verify that newly created POS User can enter to the application.
 
 ### Reports
 
@@ -225,30 +312,6 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
 
-### Payment methods
-
-
-### Equipment
-
-#### Add a Printer
-- Set up different purposes for the printer.
-- Configure various types of order tickets.
-- Provide the printer's technical specifications.
-- Save these changes.
-- Modify the settings as needed.
-- Test by ticking the 'Null Printer' checkbox. Will it work?
-
-#### Add a Terminal
-- Provide a name for the terminal.
-- Supply a POIID.
-
-#### Add a Tablet
-
-- Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
-   + **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
-   + **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
-- Validate the data and ensure the correctness of the bill printers.
-- Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
 
 
 
