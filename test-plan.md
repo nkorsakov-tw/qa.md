@@ -48,60 +48,46 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 - Create orders with discounts and voids.
 - Open the Home page.
-- Verify that all tiles have some numbers.
+- Verify that all tiles display numbers.
 - Switch between different timeframes and observe how the data changes.
-- Check the are the values realistic including the comparisom between various periods.
+- Check if the values are realistic, including comparisons between various periods.
 
 ### Spaces
 
-- Click add new space.
+- Click 'Add new space'.
 - Verify that all features (Use special price & Use secondary VAT) are available.
-- Verify that you cannot enter in the 'Start from' field already existing number of the table. The system must prevent this kind of action.
-- Tick the checkbox 'Use special price', and the capability to set the price for the newly created space must appear in articles section. Check it.
-- Click 'Edit space'.
-- Verify that all features (Use special price & Use secondary VAT) are available.
-- Verify that you are able to rename this space.
-- Click 'Modify table plan'.
-- Try to change the disposition of the tables.
-- Try to delete tables.
-- Add new tables.
-- Add visual elements.
-- Change background.
-- Try to zoom the space.
-- Activate the grid and move the table using this grid.
-- Click on the table, verify that you are able to change the settings (Table number, Seats count, Shape, Height, Width, Rotation angle, 'Don't show seats').
-- Change the size of the table.  
-- Try to duplicate the tables.
-- Click on the 'Undo' button.
-- Verify that you are able to spin the table.
-- Verify the restore button.
-- Ensure that all other buttons here work.
-- Click 'Cancel' to test that you can refuse changes.
-- Make changes again and click 'Save' to ensure that modifications will be preserved.
-- Switch between different spaces.
-- If you have unsaved changes you should be prompted "Do you really want..?". Check that the notification appears.
-- Try to delete the existing space.
-- Open POS, verify that newly created space is available and compare it with the Table plan that you've modified in the Back Office. 
+- Ensure you cannot enter an already existing table number in the 'Start from' field. The system should prevent this.
+- Tick the 'Use special price' checkbox and verify that the option to set prices appears in the articles section.
+- Click 'Edit space' and verify that all features are still available.
+- Verify that you can rename the space.
+- Click 'Modify table plan' and try to rearrange the tables, delete tables, and add new ones.
+- Add visual elements and change the background.
+- Try zooming in and out of the space.
+- Activate the grid and move tables using it.
+- Click on a table to check that you can change its settings.
+- Change the table's size and try duplicating tables.
+- Click the 'Undo' button and verify its functionality.
+- Test the 'Restore' button and other buttons on the interface.
+- Click 'Cancel' to verify that you can discard changes.
+- Make changes again and click 'Save' to ensure they are preserved.
+- Switch between spaces and verify that a warning appears if you have unsaved changes.
+- Try deleting a space.
+- Open the POS to verify that the new space is available. Compare it with the modified Table Plan in the Back Office.
 
 ### Payment methods
 
 - Click 'Add new payment method'.
-- Check that not occupied by other payment methods numbers are available.
-- Choose different payment kinds and check that all provided scrollbars are appropriate.
-- Try to modify an existing payment method.
-- Try to delete an existing payment method.
-- Try to duplicate an existing payment method.
-- Try to search the specific payment method by using the line 'What are you looking for?'.
+- Verify that numbers unoccupied by other payment methods are available.
+- Choose different types of payments and verify that all corresponding scrollbars are appropriate.
+- Modify, delete, duplicate, and search for payment methods.
 
 ### VAT levels
 
-- Verify the presence of the default VAT levels.
-- Click 'Add new VAT'.
-- Check that not occupied by other VAT levels letters are available.
-- Try to set the VAT value more than 100%. The system must prevent this action.
-- Try to modify an existing VAT level.
-- Try to delete VAT level.
-- Try to duplicate VAT level.
+- Verify the default VAT levels are present.
+- Click 'Add new VAT' and check that unoccupied VAT level letters are available.
+- Try setting the VAT value to more than 100%. The system should prevent this.
+- Modify, delete, and duplicate VAT levels.
+
 
 ### Equipment
 
@@ -138,25 +124,27 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 ### Discounts
 
 - Click 'Add new discount'.
-- Change value types and ensure that it correctly influences on the discount value.
-- Select a discount type and then verify that in the POS this discount can be correctly applied.
-- Choose the excluded period and then verify that the discount is available exactly in this timeframe.
-- Apply this discount to specific departments, courses, or groups and then verify that this discount is available exactly in the case of the corresponding articles.  
-- Try different options with reasons: 
-    + Try a 'Fixed text' type, enter it, and then verify that the discount will be applied with this reason.
-    + Try the 'Ask reason' type, choose one of the created reasons and then verify that the discount will be applied with this reason.
-- Try to delete an existing discount.
-    + Try to click undo to enhance that reverse function is also available.
-- Try to modify an existing discount.
-- Try to duplicate an existing discount.
-- Check the values.
-- Try to search a specific discount on this page.
-- Open POS, verify that the discount is available and all conditions of the discount are considered.
+- Change value types and ensure that they correctly influence the discount value.
+- Select a discount type and verify that it can be correctly applied in the POS.
+- Choose an excluded period and verify that the discount is unavailable during this timeframe.
+- Apply the discount to specific departments, courses, or groups and then verify that it is only available for the corresponding articles.
+- Experiment with different options for reasons:
+    + Choose the 'Fixed text' type, enter text, and then verify that the discount is applied with this reason.
+    + Choose the 'Ask reason' type, select one of the created reasons, and then verify that the discount is applied with this reason.
+- Attempt to delete an existing discount.
+    + Click 'Undo' to ensure that the reverse function is also available.
+- Modify an existing discount.
+- Duplicate an existing discount.
+- Review the values.
+- Search for a specific discount on this page.
+- Open the POS and verify that the discount is available and all its conditions are considered.
+
 
 ### Periods
 
 - Click 'Add new period'.
-- Create periods of various types (Weekly values, One-time use values, Annual values, Daily values)
+- Create periods of various types (Weekly values, One-time use values, Annual values, Daily values).
+- Create several periods and then verify that they are applicable for discounts.
 
 ### POS Action sets
 
