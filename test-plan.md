@@ -220,11 +220,16 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 ### Menus
 
-- Click add new menu.
-- When assign to department, check that all departments are presented.
-- Then check the availability of the departments in the POS.
-- Check that menu automatically is assigned to current spaces.
-- 
+- Click 'Add New Menu'.
+- When assigning to a department, make sure all departments are listed.
+- Verify that the menu is automatically assigned to current spaces.
+- Assign to a preparation printer, if you have one that issues an order ticket upon menu selection.
+- Click 'New Item Group'.
+- Select a course, then verify that the menu item is correctly assigned to it and functions as expected when you click the 'Fire Next Course' button.
+- Check the 'Allow to Skip' checkbox, then verify its functionality in the POS.
+- Add articles.
+- Add additional item groups and verify their display in the POS.
+
 ### POS Action sets
 
 - Navigate to POS Actions sets.
