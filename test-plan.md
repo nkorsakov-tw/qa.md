@@ -239,6 +239,10 @@ The good example of such kind of scenario is the "Edge case". The essence of thi
 - Check the 'Allow to Skip' checkbox, then verify its functionality in the POS.
 - Add articles.
 - Add additional item groups and verify their display in the POS.
+- Try to delet an existing menu.
+- Try to modify an existing menu.
+- Try to duplicate an existing menu.
+- Check the columns. 
 
 ### Combi deal
 
@@ -251,43 +255,42 @@ The good example of such kind of scenario is the "Edge case". The essence of thi
 - Add items.
 - Assign articles.
 - Set POS Display sequence and then check it in the POS.
--    
-### POS Action sets
+- Try to delet an existing menu.
+- Try to modify an existing menu.
+- Try to duplicate an existing menu.
+- Check the columns.
 
-- Navigate to POS Actions sets.
-- Modify the actual Action sets (add, remove, replace etc.)
-- Check the sequence and correctness of Action sets in the POS.
+### Courses
 
+- Click 'Add new course'.
+- Change the course number to enhance that new course can be assigned to non-occupied by other courses number.
+- Tick and untick the checkbox 'Changeable' and then verify how it works in the POS.
+- Pick colour for new course. Check this colour in the POS.
+- Try to delet an existing course.
+- Try to modify an existing course.
+- Try to duplicate an existing course.
+- Check the columns.
 
-### Restaurant settings
+### Categories
 
-- Navigate to Restaurant Settings.
-- Set the start time.
-- Open POS.
-- Generate an X Report.
-- Verify that the time on the X Report matches the time set in the Back Office.
-- Configure the log-off settings.
-- Open POS.
-- Verify that the log-off feature works as expected.
-- (???)
-- Turn on/off the availability of courses.
-- Verify that courses appear/disappear from the sections within the Back Office.
-- Open POS.
-- Check that course buttons appear/disappear as expected.
+- Click 'Add new category'.
+- Make sure that you are able to preserve a new category.
+- Try to delet an existing category.
+- Try to modify an existing category.
+- Try to duplicate an existing category.
+- Check the columns.
 
-### POS Users
+### Groups
 
-- Click 'Add new user'.
-- Leave some 'General' information fields blank and try to proceed. The system should prevent you from doing so.
-- Tick the checkbox 'Allow void' and 'Allow transfer'.
-- Verify that the 'Allow void' and 'Allow transfer' settings are functional within the POS.
-- Set the user's language.
-- Verify the language in the POS.
-- Enter the additional information.
-- Click 'Save'.
-- Edit an existing POS User.
-- Verify that everything works as expected, consistent with the previous steps.
-- Open POS, verify that newly created POS User can enter to the application.
+- Click 'Add new group'.
+- Make sure appropriate categories are displayed in the selector.
+- Select VAT level. Then check in the POS that items from this group will be sold with correct VAT level that was indicated in the group section. 
+- Add secondary VAT. It should be available in the spaces which support secondary VAT. The check it in the POS.
+- Check the columns, each column should display the concerning values such as VAT, secondary VAT, and category.
+- When you have previously set up a secondary VAT, click on the 'Hide secondary VAT' to ensure that the reverse can be performed.
+- Try to delete an existing group.
+- Try to modify an existing group.
+- Try to duplicate an existing group.
 
 ### Reports
 
@@ -405,6 +408,77 @@ The good example of such kind of scenario is the "Edge case". The essence of thi
 - Create new orders and trace how the data changes. 
 - Export this report and open this in different formats such as PDF.
 - Verify that the exported report matches with the report displayed in the Back Office.
+
+### POS Action sets
+
+- Navigate to POS Actions sets.
+- Modify the actual Action sets (add, remove, replace etc.)
+- Check the sequence and correctness of Action sets in the POS.
+
+### Company settings
+
+- Verify that the user can modify any information EXCEPT the 'VAT number'.
+
+### Restaurant settings
+
+- Navigate to Restaurant Settings.
+- Set the start time.
+- Open POS.
+- Generate an X Report.
+- Verify that the time on the X Report matches the time set in the Back Office.
+- Configure the log-off settings.
+- Open POS.
+- Verify that the log-off feature works as expected.
+- (???)
+- Turn on/off the availability of courses.
+- Verify that courses appear/disappear from the sections within the Back Office.
+- Open POS.
+- Check that course buttons appear/disappear as expected.
+
+### unTill Payments
+
+- Click 'Request access to unTill Payments' and verify that the request is sent. If you have an access to the Reseller Portal check that the email with this request should be received by the Reseller.
+- Configure unTill Payments using UP Credentials from the Payments Portal to make sure it works as expected.
+
+
+### POS Users
+
+- Click 'Add new user'.
+- Leave some 'General' information fields blank and try to proceed. The system should prevent you from doing so.
+- Tick the checkbox 'Allow void' and 'Allow transfer'.
+- Verify that the 'Allow void' and 'Allow transfer' settings are functional within the POS.
+- Set the user's language.
+- Verify the language in the POS.
+- Enter the additional information.
+- Click 'Save'.
+- Edit an existing POS User.
+- Verify that everything works as expected, consistent with the previous steps.
+- Open POS, verify that newly created POS User can enter to the application.
+
+### Need Help?
+
+- Verify that all links to the Documentation pages are available.
+- Verify that the link to the website of unTill (untill.com).
+
+### Logout
+
+- Verify that the user can perform the logout and sign in.
+
+### My profile
+
+- Verify that the changing the personal information about Location Owner is prohibited.
+- Verify the capability to change the password.
+- Click 'Add new location' and go through the entire process of the arranging the subscription.
+- Check the dates for next payments.
+- Verify the ability to renew the subscription.
+- Verify the price when rise up the quantity of screens.
+
+### Languages
+
+- Switch between several languages and check that the translations are displayed.
+
+
+
 
 
 
