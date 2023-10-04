@@ -31,7 +31,7 @@
 9. **Stay in Touch with the Development Team**:  
    Keep track of the tasks you've set. Stay updated on their status, respond promptly to queries or requests from the development team, and don't forget to close tasks that have been resolved.
 
-10. **Add tasks in the Feedback sections:** If you have any kind of suggestions (you should have them), create the tasks in the Feedback generously.
+10. **Add tasks in the Feedback sections:** If you have any kind of suggestions (you should have them), create the tasks in the Feedback generously (But in general do not set an assignee).
 
 
 ## Scope
@@ -203,6 +203,16 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Set POS Display sequence.
 - Check that the column 'Group' isn't empty. All departments must be assigned to a specific group.
 
+### Modifiers
+
+- Click 'Add new modifier'.
+- Set various option categories. Trace the changes in how it is displayed.
+- Add items
+    + Add article: choose several articles and then check their availability in the POS.
+    + Add text item: enter the text and then check its availability in the POS.
+- Assign to articles and verify in the POS.
+- Assign to departments and verify in the POS.
+- Try various types of modifiers (Optional and Mandatory). Check that they are applied in accordance with its essense.
 
 ### POS Action sets
 
