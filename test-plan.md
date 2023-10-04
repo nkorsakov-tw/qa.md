@@ -213,7 +213,18 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Assign to articles and verify in the POS.
 - Assign to departments and verify in the POS.
 - Try various types of modifiers (Optional and Mandatory). Check that they are applied in accordance with its essense.
+- Try to delet an existing modifier.
+- Try to modify an existing modifier.
+- Try to duplicate an existing modifier.
+- Check the columns. 
 
+### Menus
+
+- Click add new menu.
+- When assign to department, check that all departments are presented.
+- Then check the availability of the departments in the POS.
+- Check that menu automatically is assigned to current spaces.
+- 
 ### POS Action sets
 
 - Navigate to POS Actions sets.
