@@ -26,7 +26,7 @@
    Never approve a task without re-testing functionalities that have been updated or fixed to ensure they now work as expected.
 
 8. **Comprehensive Descriptions**:  
-   When reporting an error, provide a detailed description. Include all essential steps taken, so that the issue can be easily understood and replicated.
+   When reporting an error, provide a detailed description. Include all essential steps taken, so that the issue can be easily understood and reproduced. If you understand that there is the need in screenshots for visual representation, take them and attach to the task.
 
 9. **Stay in Touch with the Development Team**:  
    Keep track of the tasks you've set. Stay updated on their status, respond promptly to queries or requests from the development team, and don't forget to close tasks that have been resolved.
@@ -41,6 +41,16 @@ You need to test services of unTill Air (Back Office and POS) on two environment
 ## Objective
 
 We must highlight the possible errors, bugs etc. before going live. Our aim is to prevent collapses. We work to gurantee the high quality of the Products which we provide to our customers.
+
+## Structure
+
+The structure of this Test Plan mainly is divided into two parts: "Test cases" and "Scenarious". 
+
+- The "Test cases" assume that you need from time to time ensure that the system works as expected and we have no serious issues in our software. So, all common operations in the Back Office and POS should be covered by following these described steps. 
+
+- The "Scenarious" section assumes that the tester composes some rare scenarious to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarious which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. 
+
+The good example of such kind of scenario is the "Edge case". The essence of this scenario consists in the approach to the testing when you touch the extreme values of the parametres. This approach can be really effective to find the sections in the software product where the objective limits and restrictions take a place but didn't established in the product. This circumstance can be a potencial trouble for clients.  
 
 ## Test cases (Back Office)
 
@@ -223,13 +233,25 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - Click 'Add New Menu'.
 - When assigning to a department, make sure all departments are listed.
 - Verify that the menu is automatically assigned to current spaces.
-- Assign to a preparation printer, if you have one that issues an order ticket upon menu selection.
+- Assign to a preparation printer. If you have a printer to issue a ticket, test it in the POS. 
 - Click 'New Item Group'.
 - Select a course, then verify that the menu item is correctly assigned to it and functions as expected when you click the 'Fire Next Course' button.
 - Check the 'Allow to Skip' checkbox, then verify its functionality in the POS.
 - Add articles.
 - Add additional item groups and verify their display in the POS.
 
+### Combi deal
+
+- Click 'Add new combi deal'.
+- Assign new combi deal to department, make sure all departments are presented here.
+- Tick the checkbox 'Suggest missing articles...' and ensure that the prompts with combi deal suggestions appear accordingly.
+- Further, leave this checkbox unticked and verify in the POS that waiters do not receive any prompts.
+- Verify that the combi deal is automatically assigned to current spaces.
+- Assign to a preparation printer. If you have a printer to issue a ticket, test it in the POS. 
+- Add items.
+- Assign articles.
+- Set POS Display sequence and then check it in the POS.
+-    
 ### POS Action sets
 
 - Navigate to POS Actions sets.
@@ -394,7 +416,7 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 ## Scenarious
 
-### Exceed the limits
+### Edge cases
 
 - Try to test the restrictions of system which can be unconsidered from the developer's side. The error might appear in the case when you make something unusual. 
 
@@ -402,3 +424,4 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 
 Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
 Assign 10 modifiers for one article to check 
+On the page of the subscriptions, select more than 100 screens. Check which price would be displayed.
