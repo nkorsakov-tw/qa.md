@@ -190,6 +190,20 @@ We must highlight the possible errors, bugs etc. before going live. Our aim is t
 - If you have some articles with special price, this price for a specific space should be displayed. Verify it.
 - Click to test sorting within the articles page.
 
+### Departments
+
+- Click 'Add new department'.
+- Select group, and then check that department is used with a right group therefore department is used with a right VAT level.
+- Verify that existing spaces are assigned to the department automatically.
+- Create special articles. They must be shown in different departments (in a native department and in the department where you work now). Check this.
+- Set POS Display sequence for spesial articles. Verify that all works as expected in the POS.
+- Try to delete an existing department.
+- Try to modify an existing department.
+- Try to duplicate an existing department.
+- Set POS Display sequence.
+- Check that the column 'Group' isn't empty. All departments must be assigned to a specific group.
+
+
 ### POS Action sets
 
 - Navigate to POS Actions sets.
