@@ -50,7 +50,7 @@ The structure of this Test Plan mainly is divided into two parts: "Test cases" a
 
 - The "Scenarious" section assumes that the tester composes some rare scenarious to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarious which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. 
 
-The good example of such kind of scenario is the "Edge case". The essence of this scenario consists in the approach to the testing when you touch the extreme values of the parametres. This approach can be really effective to find the sections in the software product where the objective limits and restrictions take a place but didn't established in the product. This circumstance can be a potencial trouble for clients.  
+The good example of such kind of scenario is the ["Edge case"](https://en.wikipedia.org/wiki/Edge_case). The essence of this scenario consists in the approach to the testing when you touch the extreme values of the parametres. This approach can be really effective to find the sections in the software product where the objective limits and restrictions take a place but didn't established in the product. This circumstance can be a potencial trouble for clients.  
 
 ## Test cases (Back Office)
 
