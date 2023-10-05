@@ -51,11 +51,11 @@ So, under these two main objectives, you should:
 
 ## Structure
 
-The structure of this Test Plan mainly is divided into two parts: "Test cases" and "Scenarious". 
+The structure of this Test Plan mainly is divided into two parts: "Test cases" and "Scenarios". 
 
 - The "Test cases" assume that you need from time to time ensure that the system works as expected and we have no serious issues in our software. So, all common operations in the Back Office and POS should be covered by following these described steps. When you work with "Test cases" you must *follow these steps* and may make something over to find an error. 
 
-- The "Scenarious" section assumes that the tester composes some rare scenarious to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarious which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. When working with the 'Scenarios,' you don't need to follow the provided steps and examples exactly as they are described. Your goal should be to identify potential mistakes. Use your imagination to build upon the given examples and create new scenarios.
+- The "Scenarios" section assumes that the tester composes some rare scenarios to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarios which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. When working with the 'Scenarios,' you don't need to follow the provided steps and examples exactly as they are described. Your goal should be to identify potential mistakes. Use your imagination to build upon the given examples and create new scenarios.
 
 The good example of such kind of scenario is the ["Edge case"](https://en.wikipedia.org/wiki/Edge_case). The essence of this scenario consists in the approach to the testing when you touch the extreme values of the parametres. This approach can be really effective to find the sections in the software product where the objective limits and restrictions take a place but didn't established in the product. This circumstance can be a potencial trouble for clients.  
 
@@ -563,24 +563,42 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 
 - Make a logout and enter new credentials to ensure that it works as expected.
 
-## Scenarious
+## Edge cases
 
-### Edge cases
+Try to test the limits of system which can be unconsidered from the developer's side to set appropriate restrictions. The error might appear in the case when you make something unusual and even crazy. 
 
-- Try to test the limits of system which can be unconsidered from the developer's side to set appropriate restrictions. The error might appear in the case when you make something unusual and even crazy. 
+You can deliberately enter the incorrect information to observe how the system will react on this.
 
-**Example:**
+**Extremal values**
 
 - Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
+
 - Assign 10 modifiers for one article to check that it will be decently displayed. 
+
 - On the page of the subscriptions, select more than 100 screens. Check which price would be displayed.
 
-### Error cases
+**Corner cases**
 
-- Deliberately enter the incorrect information to observe how the system will react on this.
+- Create an order and complete the order and print it tomorrow. Pay attention on the time of the bill ticket and values...
 
-**Examples:**
+- Apply discount to not full menu. How the system will react?
+
+**Error values**
+
+- Skip the item that isn't allowed to skip in the menu. How the system will react?
+
+- Create the period (One-time use values) in the Back Office from 01.01.1975 till 01.10.2009. Have we some intended restrictions in such situations?
 
 - Ehter the incorrect unTill Payments Credentials on the designated page. What would be the response?
 
-- Enter the incorrect IP Address of the printer and then 
+- Enter the incorrect IP Address of the printer.
+
+- Enter the incorrect POS User password when you enter to POS application.
+
+### Special
+
+- Try to find a complex issue using the unity of other cases. It can be a combination of the 'Error cases', 'Edge cases', and 'Test cases'.
+
+**Examples:**
+
+- 
