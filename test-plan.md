@@ -477,6 +477,13 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 
 - Switch between several languages and check that the translations are displayed.
 
+### Switch between locations
+
+- Create several locations within the one account and switch between them.
+- Verify that there are no strange artefacts, that the locations cannot influence on each other. 
+
+
+## Test cases (POS)
 
 
 
