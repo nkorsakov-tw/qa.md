@@ -482,10 +482,34 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Create several locations within the one account and switch between them.
 - Verify that there are no strange artefacts, that the locations cannot influence on each other. 
 
-
 ## Test cases (POS)
 
+### Ordering process
 
+- Open POS application.
+- Connect your tablet with the location. Check that the connection works as expected.
+- Enter the personal password for specific POS User. Verify its uniqueness and the capability to enter the POS using these credentials.
+- At first try to place an order in the POS.
+- Make a more complex order using optional and mandatory modifiers, repeated articles etc.
+- Order an article:
+    + Click 'Repeat' and verify that the article was duplicated.
+    + Click 'Void' and verify that the article was removed from the order list.
+    + Click 'Undo' option and verify that the last action was unrolled.
+    + Click 'Message' and ensure that the user is able to add an article message to the article.
+    + Click 'Change course' and verify that the course can be changed if you have several courses and one course is assigned to this specific item.
+- Order an article with a modifier (optional and mandatory; paid and free).
+    + Click 'Free addon' and verify that the button works.
+    + Click 'Paid addon' and verify that the button works.
+    + Click 'Optional modifier' and verify that all optional modifiers appeared in the designated column.
+    + Verify that the mandatory modifiers are inevitable to order and if you have several mandatory modifiers the corresponding pop-up appears.  
+- Use a void button after the first confirming of the order.
+- Try to search a specific article in the search line.
+- Order article - click on the '-' and '+' buttons. Check that it works.
+- Order article - click on the button with 'trash' sign. Check that the article was deleted.
+- Enter the quantity on the calculation bar and click on the article - exactly the indicated quantity of the article must be added to an order. Check it.
+- Verify that the 'Cancel' button works and you are able to exit an order list.
+- Switch to 'Table info' and verify that the display name of the waiter, article course, current course, and table number are correct.
+-    
 
 
 
