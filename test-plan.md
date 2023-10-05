@@ -384,159 +384,162 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 #### Payments
 
 - Open the Payments Report.
-- Check the values.
-- Switch between different timeframes and observe how the data changes.
-- Create new orders and trace how the data changes.
-- Export this report and open this in different formats such as PDF.
-- Verify that the exported report matches with the report displayed in the Back Office.
+- Verify the values.
+- Switch between different timeframes and observe any changes in the data.
+- Create new orders and track how the data updates.
+- Export the report and open it in various formats, such as PDF.
+- Confirm that the exported report matches the one displayed in the Back Office.
 
 #### Financial
 
-- Open the Financil Report
-- Check the values.
-- Switch between different timeframes and observe how the data changes.
-- Create new orders and trace how the data changes. 
-- Export this report and open this in different formats such as PDF.
-- Verify that the exported report matches with the report displayed in the Back Office.
+- Open the Financial Report.
+- Verify the values.
+- Switch between different timeframes and observe any changes in the data.
+- Create new orders and track how the data updates.
+- Export the report and open it in various formats, such as PDF.
+- Confirm that the exported report matches the one displayed in the Back Office.
 
 #### Discounts
 
 - Open the Discounts Report.
-- Check the values. 
-- Check the empty fields if you see them, it can be an error.
-- Switch between timeframes and observe the changes.
-- Create new orders and trace how the data changes. 
-- Export this report and open this in different formats such as PDF.
-- Verify that the exported report matches with the report displayed in the Back Office.
+- Verify the values.
+- Inspect any empty fields; these could indicate an error.
+- Switch between timeframes and observe any changes.
+- Create new orders and track how the data updates.
+- Export the report and open it in various formats, such as PDF.
+- Confirm that the exported report matches the one displayed in the Back Office.
 
-### POS Action sets
+### POS Action Sets
 
-- Navigate to POS Actions sets.
-- Modify the actual Action sets (add, remove, replace etc.)
-- Check the sequence and correctness of Action sets in the POS.
+- Navigate to POS Action Sets.
+- Modify the existing Action Sets (add, remove, replace, etc.).
+- Verify the sequence and accuracy of the Action Sets in the POS.
 
-### Company settings
+### Company Settings
 
 - Verify that the user can modify any information EXCEPT the 'VAT number'.
 
-### Restaurant settings
+### Restaurant Settings
 
 - Navigate to Restaurant Settings.
 - Set the start time.
-- Open POS.
+- Open the POS.
 - Generate an X Report.
-- Verify that the time on the X Report matches the time set in the Back Office.
+- Confirm that the time on the X Report aligns with the time set in the Back Office.
 - Configure the log-off settings.
-- Open POS.
-- Verify that the log-off feature works as expected.
-- (???)
-- Turn on/off the availability of courses.
-- Verify that courses appear/disappear from the sections within the Back Office.
-- Open POS.
-- Check that course buttons appear/disappear as expected.
+- Open the POS and verify that the log-off feature operates as expected.
+- Toggle the availability of courses on/off.
+- Confirm that courses appear or disappear from the sections in the Back Office.
+- Open the POS and verify that the course buttons appear or disappear as configured.
+
 
 ### unTill Payments
 
-- Click 'Request access to unTill Payments' and verify that the request is sent. If you have an access to the Reseller Portal check that the email with this request should be received by the Reseller.
-- Configure unTill Payments using UP Credentials from the Payments Portal to make sure it works as expected.
-
+- Click 'Request access to unTill Payments' and verify the request is sent. If you have access to the Reseller Portal, ensure the email request is received by the Reseller.
+- Configure unTill Payments using UP Credentials from the Payments Portal to ensure it functions as expected.
 
 ### POS Users
 
 - Click 'Add new user'.
-- Leave some 'General' information fields blank and try to proceed. The system should prevent you from doing so.
-- Tick the checkbox 'Allow void' and 'Allow transfer'.
-- Verify that the 'Allow void' and 'Allow transfer' settings are functional within the POS.
-- Set the user's language.
-- Verify the language in the POS.
-- Enter the additional information.
-- Click 'Save'.
-- Edit an existing POS User.
-- Verify that everything works as expected, consistent with the previous steps.
-- Open POS, verify that newly created POS User can enter to the application.
+- Leave some 'General' information fields blank and attempt to proceed. The system should prevent you from doing so.
+- Tick the checkboxes for 'Allow void' and 'Allow transfer'.
+- Verify that the 'Allow void' and 'Allow transfer' settings work in the POS.
+- Set the user's language and verify it in the POS.
+- Edit an existing POS User and verify functionality, consistent with previous steps.
+- Open the POS and verify that the newly created POS User can access the application.
 
 ### Need Help?
 
-- Verify that all links to the Documentation pages are available.
-- Verify that the link to the website of unTill (untill.com).
+- Ensure all links to Documentation pages are functional.
+- Verify the link to unTill's website (untill.com) is functional.
 
 ### Logout
 
-- Verify that the user can perform the logout and sign in.
+- Verify the user can log out and sign back in.
 
-### My profile
+### My Profile
 
-- Verify that the changing the personal information about Location Owner is prohibited.
-- Verify the capability to change the password.
-- Click 'Add new location' and go through the entire process of the arranging the subscription.
-- Check the dates for next payments.
+- Verify that changing personal information about the Location Owner is prohibited.
+- Test the ability to change the password.
+- Click 'Add new location' and complete the entire subscription arrangement process.
+- Check the dates for the next payments.
 - Verify the ability to renew the subscription.
-- Verify the price when rise up the quantity of screens.
+- Confirm the price changes when increasing the number of screens.
 - Verify the ability to cancel an existing subscription.
 
 ### Languages
 
-- Switch between several languages and check that the translations are displayed.
+- Switch between multiple languages and verify that translations are displayed correctly.
 
-### Switch between locations
+### Switch Between Locations
 
-- Create several locations within the one account and switch between them.
-- Verify that there are no strange artefacts, that the locations cannot influence on each other. 
+- Create multiple locations within a single account and switch between them.
+- Verify that no strange artifacts appear and that locations do not influence each other.
+
 
 ## Test cases (POS)
 
 ### Ordering process
 
-- Open POS application.
-- Connect your tablet with the location. Check that the connection works as expected.
-- Enter the personal password for specific POS User. Verify its uniqueness and the capability to enter the POS using these credentials.
-- At first try to place an order in the POS.
-- Make a more complex order using optional and mandatory modifiers, repeated articles etc.
-- Order an article:
-    + Click 'Repeat' and verify that the article was duplicated.
-    + Click 'Void' and verify that the article was removed from the order list.
-    + Click 'Undo' option and verify that the last action was unrolled.
-    + Click 'Message' and ensure that the user is able to add an article message to the article.
-    + Click 'Change course' and verify that the course can be changed if you have several courses and one course is assigned to this specific item.
-- Order an article with a modifier (optional and mandatory; paid and free).
-    + Click 'Free addon' and verify that the button works.
-    + Click 'Paid addon' and verify that the button works.
-    + Click 'Optional modifier' and verify that all optional modifiers appeared in the designated column.
-    + Verify that the mandatory modifiers are inevitable to order and if you have several mandatory modifiers the corresponding pop-up appears.  
-- Use a void button after the first confirming of the order.
-- Try to search a specific article in the search line.
-- Order article - click on the '-' and '+' buttons. Check that it works.
-- Order article - click on the button with 'trash' sign. Check that the article was deleted.
-- Enter the quantity on the calculation bar and click on the article - exactly the indicated quantity of the article must be added to an order. Check it.
-- Verify that the 'Cancel' button works and you are able to exit an order list.
-- Switch to 'Table info' and verify that the display name of the waiter, article course, current course, and table number are correct.
+- Open the POS application.
+- Connect your tablet to the location. Ensure the connection works as expected.
+- Enter a unique personal password for a specific POS User. Verify that you can access the POS using these credentials. Verify its uniqueness.
+- Attempt to place a basic order in the POS.
+- Place a more complex order involving optional and mandatory modifiers, repeated articles, etc.
+- To order an article:
+    + Click 'Repeat' and ensure the article is duplicated.
+    + Click 'Void' and ensure the article is removed from the order list.
+    + Click 'Undo' and confirm that the last action is reversed.
+    + Click 'Message' and verify you can add a message to the article.
+    + Click 'Change course' and ensure the course can be changed if the item is assigned to one specific course.
+- To order an article with modifiers (optional and mandatory; paid and free):
+    + Click 'Free addon' and ensure it functions properly.
+    + Click 'Paid addon' and ensure it functions properly.
+    + Click 'Optional modifier' and verify all optional modifiers appear in the designated column.
+    + Confirm that mandatory modifiers are required to proceed with the order. If multiple mandatory modifiers exist, a corresponding pop-up should appear.
+- Use the 'Void' button after confirming the order for the first time.
+- Search for a specific article using the search bar.
+- To order an article:
+    + Click the '-' and '+' buttons and verify they function correctly.
+    + Click the 'trash' icon and ensure the article is deleted.
+- Enter a quantity in the calculation bar and click the article. Verify the specified quantity is added to the order.
+- Verify the 'Cancel' button functions correctly and allows you to exit the order list.
+- Switch to 'Table info' and confirm that the waiter's display name, article course, current course, and table number are all correct.
+
 
 ### Actions
 
-- Click on the 'Fire next course' button and verify that the current ciurse was changed on this table.
-- Open 'Table colour legend' and compare the colours in the space with colours presented in the legend. Make sure that they are matched.
+- Click on the 'Fire next course' button and verify that the current course has changed for this table.
+- Open the 'Table color legend' and compare the colours in the space to those presented in the legend. Ensure they match.
 - Click 'Transfer table'.
-    + Transfer whole bill.
+    + Transfer the whole bill.
     + Transfer by item.
-    + Verify that button 'Undo' works as expected.
-- Configure the list by item to transfer and then cancel it using the red button.
-- Order some articles and click 'Checkout' and then add tips to this order.
+    + Verify that the 'Undo' button functions as expected.
+- Configure the list of items to transfer and then cancel it using the red button.
+- Order some articles, click 'Checkout,' and add tips to this order.
 - Click 'Reset tips' and check that this button works as expected.
-- Tips that were set by user should disappear from the order when you opt to make a split. Check that it works like this.
-- Order some articles and make a split.
-    + Make a split in equal parts.
-    + Enter the quantity of parts.
-    + Enter the fractional quantity of parts and verify that the system prevents such kind of actions.
-    + Check the values after the splitting.
+- Tips that were set by the user should disappear from the order when you opt to split it. Verify this functionality.
+- Order some articles and initiate a split.
+    + Split the bill into equal parts.
+    + Enter the number of parts.
+    + Enter a fractional number of parts and verify that the system prevents such actions.
+    + Check the values after splitting.
     + Pay the bills in turn.
-    + Verify that after the each acceptance of the payment - the bill ticket is issued.  
-    + Check the ability to add tips for each separate bill.
-    + Click 'Reset tips' and verify that you are able to reset tips in the separate bill.
-    + Make a split by item.
-    + Verify that you are able to complect the bills by tapping on the articles.
-    + Verify that you are able to split repeated articles by using the calculation bar. For information on how you can do so, [refer to this page](https://help.air.untill.com/features/pos/split-the-order).
-    + Configure the conditions of splitting and then tap on the 'Reverse split' button. Check that pop-up with the quantity of parts appears and the splitting conditions are changed accordingly.
-    + 
+    + Verify that after each payment is accepted, a bill ticket is issued.
+    + Test the ability to add tips to each separate bill.
+    + Click 'Reset tips' and verify that you can reset tips on a separate bill.
+    + Split by item.
+    + Confirm that you can combine the bills by selecting the articles.
+    + Verify that you can split repeated articles using the calculation bar. For information on how to do so, [refer to this page](https://help.air.untill.com/features/pos/split-the-order).
+    + Configure the splitting conditions and then click on the 'Reverse split' button. Verify that a pop-up with the number of parts appears and the splitting conditions are updated accordingly.
+
+
+### Reports
+
+- In the POS, navigate to 'Reports' section.
+- Click 'Z Report', verify that the date 'From' is set automatically and equals the time of the last Z report.
+- Try to set the date and time 'Till' of the day that is just coming up. The system should prevent such actions. 
+- 
 
 
 
