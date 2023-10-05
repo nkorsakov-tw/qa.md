@@ -472,6 +472,7 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Check the dates for next payments.
 - Verify the ability to renew the subscription.
 - Verify the price when rise up the quantity of screens.
+- Verify the ability to cancel an existing subscription.
 
 ### Languages
 
@@ -509,8 +510,33 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Enter the quantity on the calculation bar and click on the article - exactly the indicated quantity of the article must be added to an order. Check it.
 - Verify that the 'Cancel' button works and you are able to exit an order list.
 - Switch to 'Table info' and verify that the display name of the waiter, article course, current course, and table number are correct.
--    
 
+### Actions
+
+- Click on the 'Fire next course' button and verify that the current ciurse was changed on this table.
+- Open 'Table colour legend' and compare the colours in the space with colours presented in the legend. Make sure that they are matched.
+- Click 'Transfer table'.
+    + Transfer whole bill.
+    + Transfer by item.
+    + Verify that button 'Undo' works as expected.
+- Configure the list by item to transfer and then cancel it using the red button.
+- Order some articles and click 'Checkout' and then add tips to this order.
+- Click 'Reset tips' and check that this button works as expected.
+- Tips that were set by user should disappear from the order when you opt to make a split. Check that it works like this.
+- Order some articles and make a split.
+    + Make a split in equal parts.
+    + Enter the quantity of parts.
+    + Enter the fractional quantity of parts and verify that the system prevents such kind of actions.
+    + Check the values after the splitting.
+    + Pay the bills in turn.
+    + Verify that after the each acceptance of the payment - the bill ticket is issued.  
+    + Check the ability to add tips for each separate bill.
+    + Click 'Reset tips' and verify that you are able to reset tips in the separate bill.
+    + Make a split by item.
+    + Verify that you are able to complect the bills by tapping on the articles.
+    + Verify that you are able to split repeated articles by using the calculation bar. For information on how you can do so, [refer to this page](https://help.air.untill.com/features/pos/split-the-order).
+    + Configure the conditions of splitting and then tap on the 'Reverse split' button. Check that pop-up with the quantity of parts appears and the splitting conditions are changed accordingly.
+    + 
 
 
 
