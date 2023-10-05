@@ -550,6 +550,15 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Click the red button to cancel the report. Check that it works as expected.
 - Try to make several reports.
 
+### Printer error and redirection
+
+- Use a printer without indicating IP Address to call the "Printer error" pop-up. 
+- Click 'Redirect' and select the another printer with real IP Address. Would the ticket be issued or not? Check it.
+- Click 'Ignore' and verify that the 'payment' will be proceeded without using actual printer.
+- Enter a real IP in the 'Equipment' section.
+- Click 'Repeat' on the tablet and verify that the ticket was issued.
+- Verify that with real IP or Null printer feature the printer error doesn't occur on your device.
+
 ### Logout
 
 - Make a logout and enter new credentials to ensure that it works as expected.
@@ -565,3 +574,13 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
 - Assign 10 modifiers for one article to check that it will be decently displayed. 
 - On the page of the subscriptions, select more than 100 screens. Check which price would be displayed.
+
+### Error cases
+
+- Deliberately enter the incorrect information to observe how the system will react on this.
+
+**Examples:**
+
+- Ehter the incorrect unTill Payments Credentials on the designated page. What would be the response?
+
+- Enter the incorrect IP Address of the printer and then 
