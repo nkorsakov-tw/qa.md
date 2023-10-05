@@ -46,16 +46,16 @@ You need to test services of unTill Air (Back Office and POS) on two environment
 
 So, under these two main objectives, you should:
 
-- Ensuring availability of all features.
-- Verifying the accuracy of the reports including its values.
+- Ensure the availability of all features.
+- Verify the accuracy of the reports.
 
 ## Structure
 
 The structure of this Test Plan mainly is divided into two parts: "Test cases" and "Scenarious". 
 
-- The "Test cases" assume that you need from time to time ensure that the system works as expected and we have no serious issues in our software. So, all common operations in the Back Office and POS should be covered by following these described steps. 
+- The "Test cases" assume that you need from time to time ensure that the system works as expected and we have no serious issues in our software. So, all common operations in the Back Office and POS should be covered by following these described steps. When you work with "Test cases" you must *follow these steps* and may make something over to find an error. 
 
-- The "Scenarious" section assumes that the tester composes some rare scenarious to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarious which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. 
+- The "Scenarious" section assumes that the tester composes some rare scenarious to prevent the appearance of the issues, questions, bags which should be then resolved and explained. Based on some scenarious which sometimes help to find the mistake, you can try various approaches to detect an error which isn't obvious and eye-catching. When working with the 'Scenarios,' you don't need to follow the provided steps and examples exactly as they are described. Your goal should be to identify potential mistakes. Use your imagination to build upon the given examples and create new scenarios.
 
 The good example of such kind of scenario is the ["Edge case"](https://en.wikipedia.org/wiki/Edge_case). The essence of this scenario consists in the approach to the testing when you touch the extreme values of the parametres. This approach can be really effective to find the sections in the software product where the objective limits and restrictions take a place but didn't established in the product. This circumstance can be a potencial trouble for clients.  
 
@@ -123,8 +123,8 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 #### Add a Tablet
 
 - Attempt to connect the device in two modes: 'Direct Sales' and 'Table Overview'.
-   + **Direct Sales**: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
-   + **Table Overview**: Confirm that all bill printers are visible in the scroll bar.
+   + Direct Sales: Verify that all spaces are listed in the scroll bar; confirm that all bill printers appear in the scroll bar.
+   + Table Overview: Confirm that all bill printers are visible in the scroll bar.
 - Validate the data and ensure the correctness of the bill printers.
 - Open the application on the tablet. Compare the layout with the information set in the Back Office, such as the placement of tables and decor elements configured in the Table Plan editor. Check for consistency between the settings configured in the Back Office and how they are displayed in the POS.
 
@@ -558,10 +558,10 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 
 ### Edge cases
 
-- Try to test the restrictions of system which can be unconsidered from the developer's side. The error might appear in the case when you make something unusual. 
+- Try to test the limits of system which can be unconsidered from the developer's side to set appropriate restrictions. The error might appear in the case when you make something unusual and even crazy. 
 
 **Example:**
 
-Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
-Assign 10 modifiers for one article to check 
-On the page of the subscriptions, select more than 100 screens. Check which price would be displayed.
+- Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
+- Assign 10 modifiers for one article to check that it will be decently displayed. 
+- On the page of the subscriptions, select more than 100 screens. Check which price would be displayed.
