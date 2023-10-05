@@ -2,7 +2,7 @@
 
 ----------------
 
-## Principles
+## 10 Principles
 
 1. **Always Create a Task**:  
    If you encounter a potential error, don't hesitate to create a task. If in doubt, consult the development team for clarification, but generally, a task should be created for every issue you encounter.
@@ -40,7 +40,14 @@ You need to test services of unTill Air (Back Office and POS) on two environment
 
 ## Objective
 
-We must highlight the possible errors, bugs etc. before going live. Our aim is to prevent collapses. We work to gurantee the high quality of the Products which we provide to our customers.
+1. We must detect the possible errors, bugs etc. before going live. Our aim is to prevent system failures. We work to gurantee the high quality of the Products which we provide to our customers.
+
+2. Additionally, our aim is to suggest significant improvements to the development team to enhance the overall experience for our end clients. Don't approach the product solely as a tester; instead, use it as an end-user would. Identify features or actions that are complicated or non-intuitive. 
+
+So, under these two main objectives, you should:
+
+- Ensuring availability of all features.
+- Verifying the accuracy of the reports including its values.
 
 ## Structure
 
@@ -216,81 +223,81 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 ### Modifiers
 
 - Click 'Add new modifier'.
-- Set various option categories. Trace the changes in how it is displayed.
-- Add items
-    + Add article: choose several articles and then check their availability in the POS.
-    + Add text item: enter the text and then check its availability in the POS.
-- Assign to articles and verify in the POS.
-- Assign to departments and verify in the POS.
-- Try various types of modifiers (Optional and Mandatory). Check that they are applied in accordance with its essense.
-- Try to delet an existing modifier.
-- Try to modify an existing modifier.
-- Try to duplicate an existing modifier.
-- Check the columns. 
+- Set various option categories and observe how they are displayed.
+- Add items:
+    + Add article: Select multiple articles and then verify their availability in the POS.
+    + Add text item: Input text and then verify its availability in the POS.
+- Assign to articles and confirm in the POS.
+- Assign to departments and confirm in the POS.
+- Experiment with various types of modifiers (Optional and Mandatory). Ensure they are applied correctly.
+- Attempt to delete an existing modifier.
+- Attempt to modify an existing modifier.
+- Attempt to duplicate an existing modifier.
+- Examine the columns.
 
 ### Menus
 
 - Click 'Add New Menu'.
-- When assigning to a department, make sure all departments are listed.
+- Assign to a department, ensuring all departments are listed.
 - Verify that the menu is automatically assigned to current spaces.
-- Assign to a preparation printer. If you have a printer to issue a ticket, test it in the POS. 
+- Assign to a preparation printer and test in the POS if possible.
 - Click 'New Item Group'.
-- Select a course, then verify that the menu item is correctly assigned to it and functions as expected when you click the 'Fire Next Course' button.
-- Check the 'Allow to Skip' checkbox, then verify its functionality in the POS.
+- Select a course and confirm that the menu item is correctly assigned and functions as expected when clicking 'Fire Next Course'.
+- Check 'Allow to Skip' and confirm its functionality in the POS.
 - Add articles.
 - Add additional item groups and verify their display in the POS.
-- Try to delet an existing menu.
-- Try to modify an existing menu.
-- Try to duplicate an existing menu.
-- Check the columns. 
+- Attempt to delete an existing menu.
+- Attempt to modify an existing menu.
+- Attempt to duplicate an existing menu.
+- Examine the columns.
 
-### Combi deal
+### Combi Deal
 
 - Click 'Add new combi deal'.
-- Assign new combi deal to department, make sure all departments are presented here.
-- Tick the checkbox 'Suggest missing articles...' and ensure that the prompts with combi deal suggestions appear accordingly.
-- Further, leave this checkbox unticked and verify in the POS that waiters do not receive any prompts.
+- Assign to a department, ensuring all departments are listed.
+- Tick 'Suggest missing articles...' and verify that combi deal suggestions appear in the POS.
+- Untick this checkbox and verify that no prompts appear in the POS.
 - Verify that the combi deal is automatically assigned to current spaces.
-- Assign to a preparation printer. If you have a printer to issue a ticket, test it in the POS. 
-- Add items.
-- Assign articles.
-- Set POS Display sequence and then check it in the POS.
-- Try to delet an existing menu.
-- Try to modify an existing menu.
-- Try to duplicate an existing menu.
-- Check the columns.
+- Assign to a preparation printer and test in the POS if possible.
+- Add items and assign articles.
+- Set POS Display sequence and verify in the POS.
+- Attempt to delete an existing menu.
+- Attempt to modify an existing menu.
+- Attempt to duplicate an existing menu.
+- Examine the columns.
 
 ### Courses
 
 - Click 'Add new course'.
-- Change the course number to enhance that new course can be assigned to non-occupied by other courses number.
-- Tick and untick the checkbox 'Changeable' and then verify how it works in the POS.
-- Pick colour for new course. Check this colour in the POS.
-- Try to delet an existing course.
-- Try to modify an existing course.
-- Try to duplicate an existing course.
-- Check the columns.
+- Change the course number to ensure it can be assigned a unique number.
+- Toggle 'Changeable' on and off, then confirm its functionality in the POS.
+- Choose a color for the new course and verify it in the POS.
+- Attempt to delete an existing course.
+- Attempt to modify an existing course.
+- Attempt to duplicate an existing course.
+- Examine the columns.
 
 ### Categories
 
 - Click 'Add new category'.
-- Make sure that you are able to preserve a new category.
-- Try to delet an existing category.
-- Try to modify an existing category.
-- Try to duplicate an existing category.
-- Check the columns.
+- Ensure you can save the new category.
+- Attempt to delete an existing category.
+- Attempt to modify an existing category.
+- Attempt to duplicate an existing category.
+- Examine the columns.
 
 ### Groups
 
 - Click 'Add new group'.
-- Make sure appropriate categories are displayed in the selector.
-- Select VAT level. Then check in the POS that items from this group will be sold with correct VAT level that was indicated in the group section. 
-- Add secondary VAT. It should be available in the spaces which support secondary VAT. The check it in the POS.
-- Check the columns, each column should display the concerning values such as VAT, secondary VAT, and category.
-- When you have previously set up a secondary VAT, click on the 'Hide secondary VAT' to ensure that the reverse can be performed.
-- Try to delete an existing group.
-- Try to modify an existing group.
-- Try to duplicate an existing group.
+- Ensure relevant categories appear in the selector.
+- Select a VAT level and verify in the POS that items from this group are sold at the indicated VAT level.
+- Add secondary VAT and verify its availability in spaces that support it, then confirm in the POS.
+- Examine each column for relevant values such as VAT, secondary VAT, and category.
+- If secondary VAT has been set, click 'Hide secondary VAT' to ensure it can be removed.
+- Attempt to delete an existing group.
+- Attempt to modify an existing group.
+- Attempt to duplicate an existing group.
+
 
 ### Reports
 
@@ -533,20 +540,19 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
     + Verify that you can split repeated articles using the calculation bar. For information on how to do so, [refer to this page](https://help.air.untill.com/features/pos/split-the-order).
     + Configure the splitting conditions and then click on the 'Reverse split' button. Verify that a pop-up with the number of parts appears and the splitting conditions are updated accordingly.
 
-
 ### Reports
 
 - In the POS, navigate to 'Reports' section.
 - Click 'Z Report', verify that the date 'From' is set automatically and equals the time of the last Z report.
 - Try to set the date and time 'Till' of the day that is just coming up. The system should prevent such actions. 
-- 
+- Click 'X Report', verify that the date 'From' is free to manage. X Reports have no date limits. 
+- Check the values.
+- Click the red button to cancel the report. Check that it works as expected.
+- Try to make several reports.
 
+### Logout
 
-
-
-
-  
-
+- Make a logout and enter new credentials to ensure that it works as expected.
 
 ## Scenarious
 
