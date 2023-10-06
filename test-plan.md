@@ -569,6 +569,8 @@ Try to test the limits of system which can be unconsidered from the developer's 
 
 You can deliberately enter the incorrect information to observe how the system will react on this.
 
+Try to find a complex issue using the unity of other cases. It can be a combination of the 'Error cases', 'Corner cases', and 'Test cases'.
+
 **Extremal values**
 
 - Create 20 discounts and observe how it will work in the POS. Would the discounts available, how they will be placed in the discount list?
@@ -581,11 +583,11 @@ You can deliberately enter the incorrect information to observe how the system w
 
 - Create an order and complete the order and print it tomorrow. Pay attention on the time of the bill ticket and values...
 
-- Apply discount to not full menu. How the system will react?
+- Apply a discount to not full menu. How the system will react?
 
 **Error values**
 
-- Skip the item that isn't allowed to skip in the menu. How the system will react?
+- Skip the menu item that isn't allowed to skip. How the system will react?
 
 - Create the period (One-time use values) in the Back Office from 01.01.1975 till 01.10.2009. Have we some intended restrictions in such situations?
 
@@ -595,10 +597,12 @@ You can deliberately enter the incorrect information to observe how the system w
 
 - Enter the incorrect POS User password when you enter to POS application.
 
-### Special
+**Negative testing**
 
-- Try to find a complex issue using the unity of other cases. It can be a combination of the 'Error cases', 'Edge cases', and 'Test cases'.
+- You try to overload the system with various types of information. The aim is to input different values that could push the system into unpredictable behavior.
 
-**Examples:**
+**Special case**
 
-- 
+- Skip the menu item that isn't allowed to skip. Apply a discount to not full menu. What is the respond of the system?
+
+In this situation you unify the approaches from the previous cases to reach out a bit more serious issue. 
