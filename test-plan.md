@@ -594,6 +594,8 @@ Try to find a complex issue using the unity of other cases. It can be a combinat
 
 - Apply a discount to not full menu. How the system will react?
 
+- Make two Z Reports in one minute. How the system will react?
+
 **Error values**
 
 - Skip the menu item that isn't allowed to skip. How the system will react?
