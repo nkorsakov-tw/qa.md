@@ -250,12 +250,15 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Click 'New Item Group'.
 - Select a course and confirm that the menu item is correctly assigned and functions as expected when clicking 'Fire Next Course'.
 - Check 'Allow to Skip' and confirm its functionality in the POS.
+- Verify that you are not able to order more than one article from each menu item.
+- Invent some scenarious with not full menu.
+- Transfer the order with not full menu to another table. 
 - Add articles.
 - Add additional item groups and verify their display in the POS.
 - Attempt to delete an existing menu.
 - Attempt to modify an existing menu.
 - Attempt to duplicate an existing menu.
-- Examine the columns.
+- Check the columns.
 
 ### Combi Deal
 
@@ -605,10 +608,14 @@ Try to find a complex issue using the unity of other cases. It can be a combinat
 
 **Negative testing**
 
-- You try to overload the system with various types of information. The aim is to input different values that could push the system into unpredictable behavior.
+- Order a large quantity of articles, add modifiers, add menus, add combi deals, apply a discount, add an article message, change courses, fire the next course, transfer the table, order more items, apply another type of discount, void an item, split the bill, add tips to each bill, reset tips and add them again. Finally, check out and make a payment. How will the system react to this sequence of actions? Test it.
 
-**Special case**
+The aim is to overload the system with various types of information. The goal is to input different values that could push the system into unpredictable behavior.
+
+**Special cases**
 
 - Skip the menu item that isn't allowed to skip. Apply a discount to not full menu. What is the respond of the system?
 
-In this situation you unify the approaches from the previous cases to reach out a bit more serious issue. 
+In this situation, you unify the approaches from the previous cases to reach out a bit more serious issue. 
+
+
