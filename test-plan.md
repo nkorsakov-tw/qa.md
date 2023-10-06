@@ -167,6 +167,12 @@ The good example of such kind of scenario is the ["Edge case"](https://en.wikipe
 - Especially, pay attention to dates, here the erorrs can be.
 - Open POS, verify that these periods are available accordingly.
 
+### Happy Hour
+
+- Assign a period to Happy hour in the restaurant settings.
+- Set the price for happy hour period in the articles section. Check that the price windows designated for happy hour prices have appeared.
+- Verify in the POS that the Happy hour is available exactly when the assigned period is active. 
+
 ### Reasons
 
 - Click add new reason.
