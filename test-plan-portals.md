@@ -49,4 +49,4 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Verify the capability to copy this link by provided instrument.
 - Place this link to somewhere and click on it. Verify that you're directed to unTill Air Sign up page.
 - Create an account using this link and subscribe to the location.
--   
+- Return to the Reseller Portal  
