@@ -32,4 +32,21 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 ### Invitation Process
 
-- Request an invitation from the Reseller Admin and then check that the invitation was sent exactly as expected and then you have the ability to enter the payments portal and at the 
+- Ask the unTill representative who has the rights of the Reseller Admin to invite you to the Reseller Portal as a Air Reseller or Payments Reseller.
+- Verify that you've received an invitation to the Portal with the role of Air Reseller via the indicated email.
+- Click at the link provided in the email. Check that this link directs you to the right page (reseller.dev.air.untill.com)
+- Verify that the page is opened without a great delay and you're able to enter the Portal.
+- Try to initiate some process such as invitation of the user or switch between the sections. System must prevent these actions.
+- The system must redirect you to the 'Subscription Profile'.
+- Unless you create and fulfil the 'Subscription Profile' other sections related to Air subscriptions must be unavailable.
+- Test the same for Payments Profile. Because unless you create and fulfil the Payments Profile it must be prohibited to go to other sections related to unTill Payments such as Payments Locations, Payouts.
+
+### Subscriptions
+
+- Switch to Subscriptions, check the titles, headings and interface at all.
+- Click 'Invite User'.
+- The unique link to the unTill Air should appear straight away.
+- Verify the capability to copy this link by provided instrument.
+- Place this link to somewhere and click on it. Verify that you're directed to unTill Air Sign up page.
+- Create an account using this link and subscribe to the location.
+-   
