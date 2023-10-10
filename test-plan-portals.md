@@ -57,4 +57,5 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 - If you have a role of the Payments Reseller you are able to test other sections of the Reseller Portal.
 - Navigate to Account. View the data provided. Check it correctness.
-- 
+- Set the different timeframes and trace how the data is changed.
+- If you have an access to execution of the payouts, test how the feature payouts will be reflected in the Account section.
