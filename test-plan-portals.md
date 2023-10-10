@@ -10,8 +10,8 @@ The creation of the document is motivated by [Increase Test Coverage Issue](http
 
 ### Objectives
 
-1. We must get rid of potential errors before going live. So, the QA team should contribute efforts to warn the development team regarding these areas of error's risks.
-2. We should provide not only reports about the errors to the development team but a feedback as well. Look on the product as an end-user and recommend to the development team which particular improvements are required.
+1. We must eliminate potential errors before going live. Therefore, the QA team should make efforts to alert the development team about areas at risk for errors.
+2. We should provide not only error reports to the development team but also feedback. View the product as an end-user and recommend specific improvements to the development team.
 
 ### Scope
 
@@ -28,3 +28,8 @@ This Test Plan has a separate structure that included two main sections: "Test c
 
 Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/d/1JH1KWSJ1TzXFBp-H8c3hTkOsUP_n_cNefsJWcl0mQuA/edit?usp=sharing) that contains the principles and read them.
 
+## Test Cases (Reseller Portal)
+
+### Invitation Process
+
+- Request an invitation from the Reseller Admin and then check that the invitation was sent exactly as expected and then you have the ability to enter the payments portal and at the 
