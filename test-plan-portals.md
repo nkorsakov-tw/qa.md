@@ -103,6 +103,7 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 - Navigate to the unTill Payments page in the Back Office.
 - Submit a request.
+- When you try to submit a request, note that the corresponding signs are appeared in this section.
 - Verify that the request was sent successfully (use the Reseller account for this aim).
 - Then as a Reseller create a Payments Location on the Reseller Portal, invite there users and verify that the invitation is available and the new users have an access to the Payments Portal for now when they click on link provided in email.
 
@@ -155,4 +156,24 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 
 ## Edge cases
+
+To read a theoretical base regarding "Edge cases", [refer to the Test Plan for Back Office and POS](https://docs.google.com/document/d/1JH1KWSJ1TzXFBp-H8c3hTkOsUP_n_cNefsJWcl0mQuA/edit?usp=sharing).
+
+### Extremal values
+
+This basic approach in the Edge cases assumes the entering of the maximum and minimum values to provocate the possible errors of the system.
+
+#### Examples:
+
+- Try to reach a ceilure of the quantity of Payouts. The system must prevent it and do not allow you to do so until you will be onboarded on the Payments Profile section by clicking 'Update Profile settings' and redirecting to the Adyen Page.
+
+- 
+
+### Corner cases
+
+Try to find the most rare scenarios for users on the Portals.
+
+#### Examples:
+
+- When you are looking for valid subscriptions which are contained in the list of the 'Subscriptions' section where the data regarding Location Owners and their Locations are stored.
 
