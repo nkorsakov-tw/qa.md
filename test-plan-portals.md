@@ -145,6 +145,8 @@ And now you are able to test the process of payment within your Location.
 - When you try to submit a request, note that the corresponding signs are appeared in this section.
 - Verify that the request was sent successfully (use the Reseller account for this aim).
 - Then as a Reseller create a Payments Location on the Reseller Portal, invite there users and verify that the invitation is available and the new users have an access to the Payments Portal for now when they click on link provided in email.
+- Verify also the email itself, estimate how many time takes the process of the sending and the receiving email. So if the delay will be longer than expected inform the development team about this issue, it can be a problem. 
+- 
 
 ### Account
 
@@ -215,5 +217,7 @@ Try to find the most rare scenarios for users on the Portals.
 #### Examples:
 
 - When you are looking for valid subscriptions which are contained in the list of the 'Subscriptions' section where the data regarding Location Owners and their Locations are stored.
+
+- 
 
 
