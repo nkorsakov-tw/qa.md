@@ -82,8 +82,37 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Click 'Update profile settings'.
 - You will be redirected to the Adyen page.
 - Confirm the language matches the one set on the Portal.
-- Click 'Company details' and test the ability to input data and set conditions.
-- Browse the list of Adyen pages.
+
+**Note:** You are free to compose the information in testing aims on this page.
+
+- Click 'Company details' and enter the required information.
+- Click 'Decision-makers' and enter the required information. (The ID can be jyust a random image file).
+- Click 'Payout details' and enter the required information. (To do so you need to generate IBAN of the country where you reside).
+- Click 'Sign services agreement' using the person that was imagined on the 'Decision-makers' page by you.
+- Then you should be able to use cards in the location by setting it in the Back Office.
+
+If you have the ability to test the terminals (You are equipped by test terminals and test bank cards), follow these steps to activate the terminals and subsequently test the payments functionality of unTill Air.
+
+Specific steps to be able to test terminals working:
+
+1. Navigate to 'Payment methods'.
+2. Add a card payment method with a kind of payment - 'card'.
+3. Ask the unTill reprentative to link the terminal to your location.
+4. Request Payment methods as the payment methods indicated on your test card.
+5. Copy the POIID from the 'Terminals' section within the Payments Portal.
+6. Add new terminal within the Back Office and input there POIID which was taken from the Payments Portal
+7. Assign payment terminal to the screen you use in the POS.
+
+And now you are able to test the process of payment within your Location.
+
+**Note:** Do not confuse the clusters available for testing. If the Payments Portal is used on the DEV cluster - the Back Offcie must be also used on the DEV cluster.
+
+- Order some articles in the location that you linked terminals.
+- Pay a bill by the card payment method.
+- Make sure that the Process of payment isn't completed until you use the test card to make a payment.
+- Make required actions while working with the test terminal.
+- Verify that the changes are reflected in the Back Office, in the Reports section for example.
+- Verify that the changes are reflected on the Payments Portal because the transaction is passed already.
 
 
 ### Languages
@@ -176,4 +205,5 @@ Try to find the most rare scenarios for users on the Portals.
 #### Examples:
 
 - When you are looking for valid subscriptions which are contained in the list of the 'Subscriptions' section where the data regarding Location Owners and their Locations are stored.
+
 
