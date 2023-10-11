@@ -53,15 +53,19 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Visit the 'Subscription' section and ensure that all data for the user who recently arranged a subscription is correct and all fields are filled in.
 - Return to the 'Subscription Profile' and verify that you can modify and add information, as well as remove information (except for the email address).
 
-### Payments Sections
+### Account
 
-- If you have a role as Payments Reseller, you can test other sections of the Reseller Portal.
+If you have a role as Payments Reseller, you can test other sections of the Reseller Portal such as 'Account'.
+
 - Navigate to 'Account'. Review the provided data and check for its accuracy.
 - Set different timeframes and monitor how the data changes.
 - If you have access to execute payouts, test how this feature reflects in the 'Account' section.
+ 
+### Payments Locations
+
 - Navigate to 'Payments Locations'.
 - Click 'Add location'.
-- Switch between time zones. Ensure that you can do this.
+- Switch between timezones. Ensure that you can do this.
 - When entering the email, you should be prompted for its validity if necessary.
 - Set different processing fees and acquirer fees.
 - Add another email and confirm that it attaches to the payments location like the primary email.
@@ -71,11 +75,14 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Adjust existing fees and proceed.
 - Change the location name and proceed.
 - Click 'Invite new users' and confirm the user was added.
-- Confirm you can cancel a user invitation by clicking the designated sign.
+- Confirm you can cancel an user invitation by clicking the designated sign.
 - Try to resend the invitation to the user and check its functionality.
-- Try to delete a payments location by clicking the corresponding button. Confirm that you are warned this action could be irreversible.
+- Try to delete a payments location at all by clicking the corresponding button. Confirm that you are warned this action could be irreversible.
 - If you deleted a Payments Location, confirm it has been removed from the list of Payments Locations.
 - Check the values in the list of Payments Locations.
+
+### Payments Profile
+
 - Navigate to 'Payments Profile'.
 - Attempt to change the legal name of your incorporated company.
 - Confirm the 'Send to Transfer Instrument' functionality is valid.
@@ -91,7 +98,7 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Click 'Sign services agreement' using the person that was imagined on the 'Decision-makers' page by you.
 - Then you should be able to use cards in the location by setting it in the Back Office.
 
-If you have the ability to test the terminals (You are equipped by test terminals and test bank cards), follow these steps to activate the terminals and subsequently test the payments functionality of unTill Air.
+If you have the ability to test the terminals (If you are equipped by test terminals and test bank cards), follow these steps to activate the terminals and subsequently test the payments functionality of unTill Air.
 
 Specific steps to be able to test terminals working:
 
@@ -113,6 +120,9 @@ And now you are able to test the process of payment within your Location.
 - Make required actions while working with the test terminal.
 - Verify that the changes are reflected in the Back Office, in the Reports section for example.
 - Verify that the changes are reflected on the Payments Portal because the transaction is passed already.
+
+### Payouts
+
 
 
 ### Languages
@@ -159,7 +169,7 @@ And now you are able to test the process of payment within your Location.
 - Click 'Request Payment Methods'.
 - The system should prevent when you try to request payment methods without the completing of the 'Profile page'.
 - So, complete the 'Profile page' and request some payment methods.
-- Check the corresponding values on this page. Verify that they are realistic.
+- Check the corresponding values on this page. Verify that they are supposed to be realistic.
 - Verify that the refresh page works as expected.
 
 ### Terminals
