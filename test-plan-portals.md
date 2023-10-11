@@ -55,36 +55,58 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 ### Payments Sections
 
-- If you have a role of the Payments Reseller you are able to test other sections of the Reseller Portal.
-- Navigate to Account. View the data provided. Check it correctness.
-- Set the different timeframes and trace how the data is changed.
-- If you have an access to execution of the payouts, test how the feature payouts will be reflected in the Account section.
-- Navigate to Payments Locations.
+- If you have a role as Payments Reseller, you can test other sections of the Reseller Portal.
+- Navigate to 'Account'. Review the provided data and check for its accuracy.
+- Set different timeframes and monitor how the data changes.
+- If you have access to execute payouts, test how this feature reflects in the 'Account' section.
+- Navigate to 'Payments Locations'.
 - Click 'Add location'.
-- Switch between timezones. Ensure that you're able to do so.
-- When you are entering the email you slould be prompted regarding its validity if the need arises.
-- Set different processign fee and acquirer fee.
-- Add another email and verify that it will be attached to the payments location as an email which was primarily attached.
+- Switch between time zones. Ensure that you can do this.
+- When entering the email, you should be prompted for its validity if necessary.
+- Set different processing fees and acquirer fees.
+- Add another email and confirm that it attaches to the payments location like the primary email.
 - Click 'Continue'.
-- Verify that the invitation to the Payments Location was sent to the indicated email.
+- Confirm that an invitation to the Payments Location was sent to the indicated email.
 - Try to modify an existing Payments Location.
-- Retune the existing fees and try to proceed.
-- Change the location name and try to proceed.
-- Click 'Invite new users' and verify that the user was added.
-- Verify that you are able to cancel an invitation to user by clicking on the designated sign.
-- Try to resend the invitation to the user. Check how it works.
-- Try to delete a payments location by clicking the corresponding button. Before the deleting od the payments location the system should warn you that this action can be irresistible.
-- If you deleted a Payments Location, verify that it has dissappeared from the list of the Payments Locations.
-- Check the values in the list of the Payments Locations.
-- Navigate to Payments Profile.
-- Try to change the legal name of the company which you are incorporated
-- Verify that the functionality 'Send to Transfer Instrument' is valid.
+- Adjust existing fees and proceed.
+- Change the location name and proceed.
+- Click 'Invite new users' and confirm the user was added.
+- Confirm you can cancel a user invitation by clicking the designated sign.
+- Try to resend the invitation to the user and check its functionality.
+- Try to delete a payments location by clicking the corresponding button. Confirm that you are warned this action could be irreversible.
+- If you deleted a Payments Location, confirm it has been removed from the list of Payments Locations.
+- Check the values in the list of Payments Locations.
+- Navigate to 'Payments Profile'.
+- Attempt to change the legal name of your incorporated company.
+- Confirm the 'Send to Transfer Instrument' functionality is valid.
 - Click 'Update profile settings'.
-- I'll be redirected to the page of Adyen.
-- Verify that the language is the same as language that was set on the Portal.
-- Click Company details and test the ability to provide the data and set some conditions of using.
-- Go through the list of the Adyen pages.
+- You will be redirected to the Adyen page.
+- Confirm the language matches the one set on the Portal.
+- Click 'Company details' and test the ability to input data and set conditions.
+- Browse the list of Adyen pages.
+
+
+### Languages
+
+- Switch between several languages.
+- Verify that the translation appears.
+- Go through the different sections to make sure that the translation is displayed. 
 
 ### Logout
 
-- Click 
+- Click 'Logout'.
+- Try to log in again. Verify that entire process was passed as expected.
+
+## Test Cases (Payments Portal)
+
+### Request access to unTill Payments
+
+- Navigate to the unTill Payments page in the Back Office.
+- Submit a request.
+- Verify that the request was sent successfully (use the Reseller account for this aim).
+- Then as a Reseller create a Payments Location on the Reseller Portal, invite there users and verify that the invitation is available and the new users have an access to the Payments Portal for now when they click on link provided in email.
+
+### Account
+
+- Navigate to the 'Account' section on the Portal.
+- 
