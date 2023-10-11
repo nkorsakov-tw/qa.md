@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This document is prepared to provide guidelines that testers must adhere to in order to systematically optimise the testing of the Payments Portal and the Reseller Portal. This document contains the descriptions of basic approaches in testing that can help you to find the potential error quite more efficient.  
+This document is written to provide guidelines that testers must adhere to in order to systematically optimise the testing of the Payments Portal and the Reseller Portal. This document contains the descriptions of basic approaches in testing that can help you to find the potential error quite more efficient.  
 
 ## Introduction
 
@@ -53,9 +53,38 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Visit the 'Subscription' section and ensure that all data for the user who recently arranged a subscription is correct and all fields are filled in.
 - Return to the 'Subscription Profile' and verify that you can modify and add information, as well as remove information (except for the email address).
 
-### Payments Profile
+### Payments Sections
 
 - If you have a role of the Payments Reseller you are able to test other sections of the Reseller Portal.
 - Navigate to Account. View the data provided. Check it correctness.
 - Set the different timeframes and trace how the data is changed.
 - If you have an access to execution of the payouts, test how the feature payouts will be reflected in the Account section.
+- Navigate to Payments Locations.
+- Click 'Add location'.
+- Switch between timezones. Ensure that you're able to do so.
+- When you are entering the email you slould be prompted regarding its validity if the need arises.
+- Set different processign fee and acquirer fee.
+- Add another email and verify that it will be attached to the payments location as an email which was primarily attached.
+- Click 'Continue'.
+- Verify that the invitation to the Payments Location was sent to the indicated email.
+- Try to modify an existing Payments Location.
+- Retune the existing fees and try to proceed.
+- Change the location name and try to proceed.
+- Click 'Invite new users' and verify that the user was added.
+- Verify that you are able to cancel an invitation to user by clicking on the designated sign.
+- Try to resend the invitation to the user. Check how it works.
+- Try to delete a payments location by clicking the corresponding button. Before the deleting od the payments location the system should warn you that this action can be irresistible.
+- If you deleted a Payments Location, verify that it has dissappeared from the list of the Payments Locations.
+- Check the values in the list of the Payments Locations.
+- Navigate to Payments Profile.
+- Try to change the legal name of the company which you are incorporated
+- Verify that the functionality 'Send to Transfer Instrument' is valid.
+- Click 'Update profile settings'.
+- I'll be redirected to the page of Adyen.
+- Verify that the language is the same as language that was set on the Portal.
+- Click Company details and test the ability to provide the data and set some conditions of using.
+- Go through the list of the Adyen pages.
+
+### Logout
+
+- Click 
