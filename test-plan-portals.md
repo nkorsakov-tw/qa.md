@@ -109,4 +109,50 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 ### Account
 
 - Navigate to the 'Account' section on the Portal.
-- 
+- View the values. Are they correct or no?
+- Set different timeframes and trace the data changes.
+- Check if the refresh button works as expected.
+
+### Profile
+
+- Navigate to 'Payments Profile' section.
+- Click 'Update profile settings'.
+- You will be redirected to the Adyen page.
+- Confirm the language matches the one set on the Portal.
+- Click 'Company details' and test the ability to input data and set conditions.
+- Browse the list of Adyen pages.
+- Copy the credentials provided in this section and input it to the designated page in the Back Office.
+
+### Methods
+
+- Navigate to 'Payments Methods'.
+- Click 'Request Payment Methods'.
+- The system should prevent when you try to request payment methods without the completing of the 'Profile page'.
+- So, complete the 'Profile page' and request some payment methods.
+- Check the corresponding values on this page. Verify that they are realistic.
+- Verify that the refresh page works as expected.
+
+### Terminals
+
+- Navigate to the 'Terminals' section.
+- If the location has terminals, check their availability and presence of them in this section.
+
+### Payouts
+
+- Navigate to 'Payouts' section.
+- If you have some payouts simulated, check the values, current balance, and all columns with data.
+
+### Logout
+
+- Click Logout.
+- Sign in.
+- Make sure that the process was passed as expected.
+
+### Languages
+
+- Switch between different languages.
+- Go through the Payments Portal and make sure that pages are translated.
+
+
+## Edge cases
+
