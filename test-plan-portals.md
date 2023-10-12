@@ -19,10 +19,7 @@ You must test the Portals on two environments (TEST cluster and DEV cluster) and
 
 ### Structure
 
-This Test Plan has a separate structure that included two main sections: "Test cases" and "Edge cases".
-
-- "Test cases" are designed to cover common situations encountered while using the Portals. Testers must follow all guidelines and recommendations to ensure that the system works correctly. The "Test cases" serve as a way to detect and resolve primarily issues corresponding with the basic features. Here we need make sure that all elements work as expected.
-- "Edge cases" are designated to test the rare and comlex scenarios which are not come to the mind first while you working with the Portals. In the Test Plan, the approaches and examples of the "Edge cases" are presented but you do not need to follow these options like guidelines, you should keep it in your mind and impress it to make something similar and reach an error in the system.
+"Test cases" are designed to cover common situations encountered while using the Portals. Testers must follow all guidelines and recommendations to ensure that the system works correctly. The "Test cases" serve as a way to detect and resolve primarily issues corresponding with the basic features. Here we need make sure that all elements work as expected.
 
 ### Principles
 
@@ -153,7 +150,7 @@ Now, you can test the payment process at your location.
 
 - Navigate to the 'Account' section on the Portal.
 - View the values. Are they correct or no?
-- Set different timeframes and trace the data changes.
+- Set different timeframes and trace the data changes. Set 1989 to make sure that the system will work.
 - Check if the refresh button works as expected.
 
 ### Profile
@@ -195,30 +192,5 @@ Now, you can test the payment process at your location.
 
 - Switch between different languages.
 - Go through the Payments Portal and make sure that pages are translated.
-
-
-## Edge cases
-
-To read a theoretical base regarding "Edge cases", [refer to the Test Plan for Back Office and POS](https://docs.google.com/document/d/1JH1KWSJ1TzXFBp-H8c3hTkOsUP_n_cNefsJWcl0mQuA/edit?usp=sharing).
-
-### Extremal values
-
-This basic approach in the Edge cases assumes the entering of the maximum and minimum values to provocate the possible errors of the system.
-
-#### Examples:
-
-- Try to reach a ceilure of the quantity of Payouts. The system must prevent it and do not allow you to do so until you will be onboarded on the Payments Profile section by clicking 'Update Profile settings' and redirecting to the Adyen Page.
-
-- 
-
-### Corner cases
-
-Try to find the most rare scenarios for users on the Portals.
-
-#### Examples:
-
-- When you are looking for valid subscriptions which are contained in the list of the 'Subscriptions' section where the data regarding Location Owners and their Locations are stored.
-
-- 
 
 
