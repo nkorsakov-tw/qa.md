@@ -85,41 +85,40 @@ If you have a role as Payments Reseller, you can test other sections of the Rese
 
 - Navigate to 'Payments Profile'.
 - Attempt to change the legal name of your incorporated company.
-- Confirm the 'Send to Transfer Instrument' functionality is valid.
+- Check that the 'Send to Transfer Instrument' functionality works correctly.
 - Click 'Update profile settings'.
-- You will be redirected to the Adyen page.
-- Confirm the language matches the one set on the Portal.
+- You should be redirected to the Adyen page.
+- Verify that the language displayed is consistent with the one set on the Portal.
 
-**Note:** You are free to compose the information in testing aims on this page.
+**Note:** For testing purposes, you may input fictional information on this page.
 
-- Click 'Company details' and enter the required information.
-- Click 'Decision-makers' and enter the required information. (The ID can be jyust a random image file).
-- Click 'Payout details' and enter the required information. (To do so you need to generate IBAN of the country where you reside).
-- Click 'Sign services agreement' using the person that was imagined on the 'Decision-makers' page by you.
-- Then you should be able to use cards in the location by setting it in the Back Office.
+- Click 'Company details' and provide the necessary information.
+- Click 'Decision-makers' and input the required details. (For ID, a random image file will suffice).
+- Click 'Payout details' and fill in the necessary details. (You'll need to generate an IBAN for the country you're based in).
+- Click 'Sign services agreement' representing the imaginary person you used in the 'Decision-makers' section.
+- After this, you should be able to set up card usage for the location via the Back Office.
 
-If you have the ability to test the terminals (If you are equipped by test terminals and test bank cards), follow these steps to activate the terminals and subsequently test the payments functionality of unTill Air.
-
-Specific steps to be able to test terminals working:
+For those equipped with test terminals and bank cards, follow these instructions to activate the terminals and test unTill Air's payment functions:
 
 1. Navigate to 'Payment methods'.
-2. Add a card payment method with a kind of payment - 'card'.
-3. Ask the unTill reprentative to link the terminal to your location.
-4. Request Payment methods as the payment methods indicated on your test card.
-5. Copy the POIID from the 'Terminals' section within the Payments Portal.
-6. Add new terminal within the Back Office and input there POIID which was taken from the Payments Portal
-7. Assign payment terminal to the screen you use in the POS.
+2. Add a 'card' payment method.
+3. Contact an unTill representative to link the terminal to your location.
+4. Set up the payment methods as specified on your test card.
+5. Note the POIID from the 'Terminals' section in the Payments Portal.
+6. Add a new terminal in the Back Office using the POIID obtained from the Payments Portal.
+7. Link the payment terminal to the POS screen you're using.
 
-And now you are able to test the process of payment within your Location.
+Now, you can test the payment process at your location.
 
-**Note:** Do not confuse the clusters available for testing. If the Payments Portal is used on the DEV cluster - the Back Offcie must be also used on the DEV cluster.
+**Note:** Ensure you're using consistent clusters for testing. If you're on the DEV cluster in the Payments Portal, use the DEV cluster in the Back Office too.
 
-- Order some articles in the location that you linked terminals.
-- Pay a bill by the card payment method.
-- Make sure that the Process of payment isn't completed until you use the test card to make a payment.
-- Make required actions while working with the test terminal.
-- Verify that the changes are reflected in the Back Office, in the Reports section for example.
-- Verify that the changes are reflected on the Payments Portal because the transaction is passed already.
+- Order some items at the location where the terminals are linked.
+- Pay using the card payment method.
+- Confirm that the payment isn't finalised until the test card is used.
+- Follow the necessary steps with the test terminal.
+- Check if the updates are visible in the Back Office, perhaps in the Reports section.
+- Confirm that these updates are also visible on the Payments Portal, given that the transaction has been processed.
+
 
 ### Payouts
 
@@ -142,11 +141,13 @@ And now you are able to test the process of payment within your Location.
 
 - Navigate to the unTill Payments page in the Back Office.
 - Submit a request.
-- When you try to submit a request, note that the corresponding signs are appeared in this section.
-- Verify that the request was sent successfully (use the Reseller account for this aim).
-- Then as a Reseller create a Payments Location on the Reseller Portal, invite there users and verify that the invitation is available and the new users have an access to the Payments Portal for now when they click on link provided in email.
-- Verify also the email itself, estimate how many time takes the process of the sending and the receiving email. So if the delay will be longer than expected inform the development team about this issue, it can be a problem. 
-- 
+- Observe that the corresponding signs appear in this section when you attempt to submit a request.
+- Verify that the request was successfully sent (use the Reseller account for this purpose).
+- As a Reseller, create a Payments Location on the Reseller Portal, then invite users. Ensure that:
+  - The invitation is received.
+  - New users can access the Payments Portal when they click on the link provided in the email.
+- Also, evaluate the email's sending and receiving time. If there's a significant delay, notify the development team as this might be an issue.
+
 
 ### Account
 
