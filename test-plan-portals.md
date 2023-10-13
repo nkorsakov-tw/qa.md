@@ -56,7 +56,7 @@ If you have a role as Payments Reseller, you can test other sections of the Rese
 
 - Navigate to 'Account'. Review the provided data and check for its accuracy.
 - Set different timeframes and monitor how the data changes.
-- If you have access to execute payouts, test how this feature reflects in the 'Account' section.
+- If you have the capability to pay bills using a test card and terminals, test how these payments appear in the 'Account' section.
  
 ### Payments Locations
 
@@ -116,9 +116,7 @@ Now, you can test the payment process at your location.
 - Check if the updates are visible in the Back Office, perhaps in the Reports section.
 - Confirm that these updates are also visible on the Payments Portal, given that the transaction has been processed.
 
-
 ### Payouts
-
 
 
 ### Languages
@@ -165,32 +163,32 @@ Now, you can test the payment process at your location.
 
 ### Methods
 
-- Navigate to 'Payments Methods'.
-- Click 'Request Payment Methods'.
-- The system should prevent when you try to request payment methods without the completing of the 'Profile page'.
-- So, complete the 'Profile page' and request some payment methods.
-- Check the corresponding values on this page. Verify that they are supposed to be realistic.
-- Verify that the refresh page works as expected.
+- Navigate to 'Payment Methods'.
+- Click on 'Request Payment Methods'.
+- Make sure the system prevents requests for payment methods if the 'Profile page' hasn't been completed.
+- Complete the 'Profile page' and then request specific payment methods.
+- Examine the displayed values on this page and ensure they appear realistic.
+- Verify the page refresh function operates as intended.
 
 ### Terminals
 
-- Navigate to the 'Terminals' section.
-- If the location has terminals, check their availability and presence of them in this section.
+- Proceed to the 'Terminals' section.
+- If the location possesses terminals, verify their presence and availability in this section.
 
 ### Payouts
 
-- Navigate to 'Payouts' section.
-- If you have some payouts simulated, check the values, current balance, and all columns with data.
+- Access the 'Payouts' section.
+- If there are simulated payouts, review the values, current balance, and all columns for data accuracy.
 
 ### Logout
 
-- Click Logout.
-- Sign in.
-- Make sure that the process was passed as expected.
+- Click on 'Logout'.
+- Sign in again and ensure that the process completes as expected.
 
 ### Languages
 
-- Switch between different languages.
-- Go through the Payments Portal and make sure that pages are translated.
+- Toggle between various languages.
+- Navigate through the Payments Portal and confirm all pages are translated appropriately.
+
 
 
