@@ -29,13 +29,13 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 
 ### Invitation Process
 
-- Ask a unTill representative with Reseller Admin rights to invite you to the Reseller Portal as either an Air Reseller or Payments Reseller.
-- Verify that you've received an email invitation to the Portal, designating you as an Air Reseller.
-- Click on the link provided in the email and confirm that it directs you to the correct page (reseller.dev.air.untill.com).
+- Ask a unTill representative with Reseller Admin rights to invite you to the Reseller Portal.
+- Verify that you have received an email invitation to the Portal, designating you as an Reseller.
+- Click on the link provided in the email and confirm that it directs you to the [correct page](https://reseller.dev.air.untill.com/#/140737488486424/subscriptions).
 - Make sure the page opens without significant delay and that you can enter the Portal.
 - Attempt to initiate processes like inviting a user or switching between sections. The system should prevent these actions.
 - The system should then redirect you to the 'Subscription Profile'.
-- Unless you complete the 'Subscription Profile,' access to other sections related to Air subscriptions should be restricted.
+- Unless you complete the 'Subscription Profile', access to other sections related to Air subscriptions should be restricted.
 - Test the same for the Payments Profile. Until you complete this profile, you should be restricted from accessing other unTill Payments-related sections, such as Payments Locations and Payouts.
 
 ### Subscriptions
@@ -44,10 +44,10 @@ Please refer to the [Test Plan for unTill Air](https://docs.google.com/document/
 - Click on 'Invite User'.
 - A unique link to unTill Air should appear immediately.
 - Use the provided tool to copy this link.
-- Paste this link somewhere and click on it. Verify that it directs you to the unTill Air sign-up page.
+- Paste this link somewhere (Docs, Google Keep, Notes) and click on it. Verify that it directs you to the unTill Air sign-up page.
 - Create an account using this link and subscribe to the location.
 - Return to the Reseller Portal.
-- Visit the 'Subscription' section and ensure that all data for the user who recently arranged a subscription is correct and all fields are filled in.
+- Visit the 'Subscription' section and make sure all data for the user who recently arranged a subscription is correct and all fields are filled in.
 - Return to the 'Subscription Profile' and verify that you can modify and add information, as well as remove information (except for the email address).
 
 ### Account
@@ -62,21 +62,21 @@ If you have a role as Payments Reseller, you can test other sections of the Rese
 
 - Navigate to 'Payments Locations'.
 - Click 'Add location'.
-- Switch between timezones. Ensure that you can do this.
-- When entering the email, you should be prompted for its validity if necessary.
-- Set different processing fees and acquirer fees.
-- Add another email and confirm that it attaches to the payments location like the primary email.
+- Switch between timezones and ensure functionality.
+- While entering an email, ensure you're prompted for its validity if needed.
+- Set separate processing and acquirer fees.
+- Add another email and verify it's linked to the Payments Location just like the first one.
 - Click 'Continue'.
-- Confirm that an invitation to the Payments Location was sent to the indicated email.
-- Try to modify an existing Payments Location.
-- Adjust existing fees and proceed.
-- Change the location name and proceed.
-- Click 'Invite new users' and confirm the user was added.
-- Confirm you can cancel an user invitation by clicking the designated sign.
-- Try to resend the invitation to the user and check its functionality.
-- Try to delete a payments location at all by clicking the corresponding button. Confirm that you are warned this action could be irreversible.
-- If you deleted a Payments Location, confirm it has been removed from the list of Payments Locations.
-- Check the values in the list of Payments Locations.
+- Confirm an invitation to the Payments Location was sent to the provided email.
+- Attempt to modify an existing Payments Location.
+- Update existing fees and save changes.
+- Rename the Payments Location and save.
+- Click 'Invite new users' and verify the user addition.
+- Ensure you have the option to cancel a user invitation via the designated sign.
+- Test resending an invitation and verify its function.
+- Consider deleting a Payments Location using the specified button. Make sure you're warned about the irreversibility of this action.
+- If a Payments Location is deleted, verify its removal from the list.
+- Review and confirm the accuracy of values in the Payments Locations list.
 
 ### Payments Profile
 
